@@ -1,0 +1,180 @@
+type = menu
+
+customization-meta {
+  identifier = itemexchange.production.civguide
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 8c0f45f1-b857-441f-970d-10a8b5480aba1656042773052
+  action = addbutton
+  y = 10
+  label = FactoryMod
+  value = to_production-factorymod
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 412a2b01-577e-4509-ae4a-53131a8ad4c11656042782108
+  action = addbutton
+  y = 40
+  label = OldEnchanting
+  value = to_production-oldenchanting
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = ead9aa2a-beae-4148-9db7-61c9862a8a201656042795473
+  action = addbutton
+  y = 70
+  label = RealisticBiomes
+  value = to_production-realisticbiomes
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = c90f124a-ad80-44d0-b8d0-240cace0b70a1656042859651
+  action = addbutton
+  y = 100
+  label = HiddenOre
+  value = to_production-hiddenore
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 71471553-e3af-455d-9e75-6444d13354161656042883076
+  action = addbutton
+  y = 130
+  label = ItemExchange
+  value = to_production-itemexchange
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 9
+  width = 100
+  actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
+  action = addbutton
+  y = 160
+  label = TradePlus
+  value = to_production-tradeplus
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 9
+  width = 100
+  actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
+  action = addbutton
+  y = 190
+  label = Botting
+  value = to_production-botting
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 9
+  width = 100
+  actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
+  action = addbutton
+  y = 220
+  label = Brewery
+  value = to_production-brewery
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 9
+  width = 100
+  actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
+  action = addbutton
+  y = 250
+  label = Anthropod Egg
+  value = to_production-anthropodegg
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 9
+  width = 100
+  actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
+  action = addbutton
+  y = 280
+  label = RailSwitch
+  value = to_production-railswitch
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = e3edec1b-4eba-441d-a81a-4358017187e31656046011810
+  action = addbutton
+  y = 310
+  label = ObsidianGenerators
+  value = to_production-obsidiangen
+  height = 20
+}
+

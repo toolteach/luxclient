@@ -1,0 +1,3 @@
+identifier = combatchanges.combat.civguide
+title = 
+allowesc = true

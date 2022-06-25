@@ -1,0 +1,2 @@
+closegui
+opencustomgui:exilepearl.combat.civguide

@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = kira.misc.civguide
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 8c0f45f1-b857-441f-970d-10a8b5480aba1656042773052
+  action = addbutton
+  y = 15
+  label = Kira
+  value = to_misc-kira
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 412a2b01-577e-4509-ae4a-53131a8ad4c11656042782108
+  action = addbutton
+  y = 45
+  label = Jargon
+  value = to_misc-jargon
+  height = 20
+}
+

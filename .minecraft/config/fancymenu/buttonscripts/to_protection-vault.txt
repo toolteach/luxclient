@@ -1,0 +1,2 @@
+closegui
+opencustomgui:vault.protection.civguide

@@ -1,0 +1,127 @@
+type = menu
+
+customization-meta {
+  identifier = civguide
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\Images and etc\worldactive.png
+  label = World
+  loopbackgroundanimations = true
+  x = 199
+  width = 60
+  actionid = ee7b03ac-97f6-47a9-bc34-89a3d541bdb31656038343620
+  action = addbutton
+  y = 137
+  backgroundnormal = config\fancymenu\Images and etc\world.png
+  value = terrain.world.civguide
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\Images and etc\gearsactive.png
+  label = Production
+  loopbackgroundanimations = true
+  x = 290
+  width = 60
+  actionid = e46c8541-6071-40a4-af45-be1fedfd9f471656039285045
+  action = addbutton
+  y = 137
+  backgroundnormal = config\fancymenu\Images and etc\gears.png
+  value = factorymod.production.civguide
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\Images and etc\sheildactive.png
+  label = Protection
+  loopbackgroundanimations = true
+  x = 381
+  width = 60
+  actionid = 7cb53ca2-dd96-4b59-aeb9-90013824d9791656039336236
+  action = addbutton
+  y = 137
+  backgroundnormal = config\fancymenu\Images and etc\sheild.png
+  value = citadel.protection.civguide
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 210
+  actionid = d3916f87-d604-4b60-8c92-6b71c914c7091656039428127
+  action = addtext
+  y = 63
+  scale = 5.0
+  alignment = left
+  value = Civ Guide
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\Images and etc\swordsactive.png
+  label = Combat
+  loopbackgroundanimations = true
+  x = 244
+  width = 60
+  actionid = 19b69b14-79fb-4546-97fd-8502d53492e71656039590284
+  action = addbutton
+  y = 216
+  backgroundnormal = config\fancymenu\Images and etc\swords.png
+  value = exilepearl.combat.civguide
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\Images and etc\othersactive.png
+  label = Miscellaneous
+  loopbackgroundanimations = true
+  x = 336
+  width = 60
+  actionid = 4e7eebc2-370f-443a-a30c-428aa30284ff1656039675937
+  action = addbutton
+  y = 216
+  backgroundnormal = config\fancymenu\Images and etc\others2.png
+  value = kira.misc.civguide
+  height = 60
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = 280
+  width = 81
+  actionid = 78048f5a-58f4-4b08-97d4-f84f6854e1fc1656097014637
+  action = addbutton
+  y = 299
+  label = Back
+  value = 
+  height = 20
+}
+

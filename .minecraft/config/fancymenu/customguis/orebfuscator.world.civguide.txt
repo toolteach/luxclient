@@ -1,0 +1,3 @@
+identifier = orebfuscator.world.civguide
+title = 
+allowesc = true

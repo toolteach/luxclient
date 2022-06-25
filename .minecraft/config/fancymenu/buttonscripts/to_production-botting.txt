@@ -1,0 +1,2 @@
+closegui
+opencustomgui:botting.production.civguide

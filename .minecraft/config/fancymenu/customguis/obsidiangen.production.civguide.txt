@@ -1,0 +1,3 @@
+identifier = obsidiangen.production.civguide
+title = 
+allowesc = true

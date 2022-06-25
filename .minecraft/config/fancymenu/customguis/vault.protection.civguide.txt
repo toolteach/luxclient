@@ -1,0 +1,3 @@
+identifier = vault.protection.civguide
+title = 
+allowesc = true

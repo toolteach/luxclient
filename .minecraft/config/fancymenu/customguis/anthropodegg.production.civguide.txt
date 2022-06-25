@@ -1,0 +1,3 @@
+identifier = anthropodegg.production.civguide
+title = 
+allowesc = true

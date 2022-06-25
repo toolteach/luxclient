@@ -1,0 +1,2 @@
+closegui
+opencustomgui:bastion.protection.civguide

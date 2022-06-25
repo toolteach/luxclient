@@ -1,0 +1,3 @@
+identifier = combattag.combat.civguide
+title = 
+allowesc = true

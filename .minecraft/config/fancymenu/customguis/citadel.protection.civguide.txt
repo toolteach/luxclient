@@ -1,0 +1,3 @@
+identifier = citadel.protection.civguide
+title = 
+allowesc = true

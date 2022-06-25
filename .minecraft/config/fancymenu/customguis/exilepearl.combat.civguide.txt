@@ -1,0 +1,3 @@
+identifier = exilepearl.combat.civguide
+title = 
+allowesc = true

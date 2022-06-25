@@ -1,0 +1,2 @@
+closegui
+opencustomgui:kira.misc.civguide

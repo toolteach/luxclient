@@ -1,0 +1,182 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/Images and etc/mainmenupanoramic.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 22
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 45
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -62
+  width = 125
+  actionid = 03d72701-79eb-49a1-916c-764e85de86ed1655958980599
+  action = addbutton
+  y = 72
+  label = Civ Guide
+  value = civguide
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 2
+  actionid = 825e6b99-024c-4931-8967-dc6d4a684f501655959161027
+  action = addtext
+  y = -10
+  scale = 1.0
+  alignment = left
+  value = Lux Client %mcversion% v0.4 Beta / Fabric %version:fabric% 
+}
+
+customization {
+  path = config/fancymenu/Images and etc/luxclient.png
+  orientation = mid-centered
+  x = -75
+  width = 150
+  action = addtexture
+  actionid = 3b286459-43f6-4242-87f0-5083566d03e11655959467851
+  y = -168
+  height = 150
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config\fancymenu\Images and etc\invisible-png.png
+  label = Credits
+  loopbackgroundanimations = true
+  hoverlabel = &nCredits
+  x = 591
+  width = 40
+  actionid = bc4beb20-34f8-4285-9a7f-2cbed92fdbc01656143813174
+  action = addbutton
+  y = 9
+  backgroundnormal = config\fancymenu\Images and etc\invisible-png.png
+  value = credits
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\Images and etc\invisible-png.png
+  label = 
+  loopbackgroundanimations = true
+  x = 603
+  width = 34
+  actionid = 9e6592bc-a52c-4d2b-acfe-54fe0ec933401656145093523
+  action = addbutton
+  y = 304
+  backgroundnormal = config\fancymenu\Images and etc\invisible-png.png
+  value = 
+  height = 33
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr:showif:buttonhovered = true
+  x = 608
+  actionid = 3e7051dd-99ec-47ab-9fed-e78f03b5bb3e1656145135570
+  action = addtext
+  y = 329
+  scale = 1.0
+  alignment = left
+  value = Meow
+  vr:value:buttonhovered = 9e6592bc-a52c-4d2b-acfe-54fe0ec933401656145093523
+}
+
+customization {
+  path = config/fancymenu/Images and etc/feline.png
+  orientation = top-left
+  vr:showif:buttonhovered = true
+  x = 609
+  width = 20
+  action = addtexture
+  actionid = f3a14132-21f1-4ca6-85a3-3bfd79cf00e91656145176547
+  y = 310
+  vr:value:buttonhovered = 9e6592bc-a52c-4d2b-acfe-54fe0ec933401656145093523
+  height = 18
+}
+

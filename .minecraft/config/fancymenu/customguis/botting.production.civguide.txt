@@ -1,0 +1,3 @@
+identifier = botting.production.civguide
+title = 
+allowesc = true

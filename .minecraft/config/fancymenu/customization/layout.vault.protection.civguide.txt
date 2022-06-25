@@ -1,0 +1,90 @@
+type = menu
+
+customization-meta {
+  identifier = vault.protection.civguide
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 8c0f45f1-b857-441f-970d-10a8b5480aba1656042773052
+  action = addbutton
+  y = 15
+  label = Citadel
+  value = to_protection-citadel
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 412a2b01-577e-4509-ae4a-53131a8ad4c11656042782108
+  action = addbutton
+  y = 45
+  label = Namelayer
+  value = to_protection-namelayer
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = ead9aa2a-beae-4148-9db7-61c9862a8a201656042795473
+  action = addbutton
+  y = 75
+  label = Bastion
+  value = to_protection-bastion
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = c90f124a-ad80-44d0-b8d0-240cace0b70a1656042859651
+  action = addbutton
+  y = 105
+  label = JukeAlert
+  value = to_protection-jukealert
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = runscript
+  x = 10
+  width = 100
+  actionid = 71471553-e3af-455d-9e75-6444d13354161656042883076
+  action = addbutton
+  y = 135
+  label = Vault
+  value = to_protection-vault
+  height = 20
+}
+

@@ -1,0 +1,156 @@
+type = menu
+
+customization-meta {
+  identifier = credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 286
+  actionid = 5f4c6981-37c9-48fc-9cc9-006b45506bc81656144094187
+  action = addtext
+  y = 29
+  scale = 2.0
+  alignment = left
+  value = Credits
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 259
+  slim = false
+  actionid = c7736cc0-cfde-453d-9013-d07a86ff140d1656144207554
+  action = addentity
+  y = 289
+  scale = 30
+  playername = melncat
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 259
+  slim = false
+  actionid = c760fff0-a37c-4685-acf8-e15a92bfa5171656144207723
+  action = addentity
+  y = 128
+  scale = 30
+  playername = TripleLuxen
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 259
+  slim = false
+  actionid = 2f636af6-905a-4e94-a3bb-4a8a0dfd38a91656144276610
+  action = addentity
+  y = 209
+  scale = 30
+  playername = Ziwin
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 288
+  actionid = e8940bae-6c5b-4cc6-902e-0be1973a48281656144616914
+  action = addtext
+  y = 70
+  scale = 2.0
+  alignment = left
+  value = TripleLuxen
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 288
+  actionid = ebb62a45-ddb5-449a-a3d3-e7da48bf8cde1656144632612
+  action = addtext
+  y = 151
+  scale = 2.0
+  alignment = left
+  value = Ziwin
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 288
+  actionid = 28c646f1-edbc-452d-a240-f040f6d34f4f1656144658965
+  action = addtext
+  y = 231
+  scale = 2.0
+  alignment = left
+  value = Melncat
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 289
+  actionid = 2f215d66-cdb9-4d4e-be1b-79820fe633211656144694680
+  action = addtext
+  y = 91
+  scale = 1.0
+  alignment = left
+  value = Client Creator / Designer
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 288
+  actionid = 5389d89b-a384-49d0-aa1c-2b1e050075631656144709995
+  action = addtext
+  y = 171
+  scale = 1.0
+  alignment = left
+  value = Artist / Beta Tester
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 289
+  actionid = 21d103ec-9cd8-44fc-9fdd-0cc1c09b27ba1656144738527
+  action = addtext
+  y = 250
+  scale = 1.0
+  alignment = left
+  value = Support, Special Thanks
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = 9
+  width = 70
+  actionid = 1fbb9e57-447e-4b05-8fcb-7f5dee30a9c01656144858342
+  action = addbutton
+  y = 19
+  label = Back
+  value = 
+  height = 20
+}
+

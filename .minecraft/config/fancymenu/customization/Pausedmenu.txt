@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-right
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  x = -110
+  width = 100
+  actionid = 6407f29a-680a-48af-bb76-cbdd5c4c3c621656097588668
+  action = addbutton
+  y = -27
+  label = Civ Guide
+  value = civguide
+  height = 20
+}
+

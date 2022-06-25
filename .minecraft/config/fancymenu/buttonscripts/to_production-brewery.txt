@@ -1,0 +1,2 @@
+closegui
+opencustomgui:brewery.production.civguide

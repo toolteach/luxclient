@@ -1,0 +1,3 @@
+identifier = randomspawn.world.civguide
+title = 
+allowesc = true

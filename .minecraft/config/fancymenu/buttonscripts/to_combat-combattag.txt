@@ -1,0 +1,2 @@
+closegui
+opencustomgui:combattag.combat.civguide

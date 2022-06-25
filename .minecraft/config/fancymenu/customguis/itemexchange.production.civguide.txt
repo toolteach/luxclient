@@ -1,0 +1,3 @@
+identifier = itemexchange.production.civguide
+title = 
+allowesc = true

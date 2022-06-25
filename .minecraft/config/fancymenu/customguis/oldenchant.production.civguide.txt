@@ -1,0 +1,3 @@
+identifier = oldenchant.production.civguide
+title = 
+allowesc = true

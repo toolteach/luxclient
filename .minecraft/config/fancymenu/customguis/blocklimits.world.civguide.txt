@@ -1,0 +1,3 @@
+identifier = blocklimits.world.civguide
+title = 
+allowesc = true
