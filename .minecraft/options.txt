@@ -13,13 +13,13 @@ realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.19953051643192496
+mouseSensitivity:0.5035211267605634
 fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["Fabric Mods","lambdabettergrass/default"]
+resourcePacks:["vanilla","Fabric Mods"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -81,8 +81,8 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.left.control
-key_key.sprint:key.keyboard.left.shift
+key_key.sneak:key.keyboard.left.shift
+key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
@@ -96,8 +96,8 @@ key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.right.bracket
-key_key.loadToolbarActivator:key.keyboard.left.bracket
+key_key.saveToolbarActivator:key.keyboard.c
+key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
 key_key.hotbar.2:key.keyboard.2
@@ -111,7 +111,7 @@ key_key.hotbar.9:key.keyboard.9
 key_Reload Menu | CTRL + ALT + :key.keyboard.r
 key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.c
 key_jsmacros.menu:key.keyboard.k
-key_key.wi_zoom.zoom:key.keyboard.c
+key_key.wi_zoom.zoom:key.keyboard.v
 key_key.amecs.alternative_escape:key.keyboard.unknown
 key_key.amecs.toggle_auto_jump:key.keyboard.b
 key_key.amecs.toggle_cape:key.keyboard.unknown
@@ -122,29 +122,29 @@ key_key.amecs.toggle_left_pants_leg:key.keyboard.unknown
 key_key.amecs.toggle_right_pants_leg:key.keyboard.unknown
 key_key.amecs.toggle_hat:key.keyboard.unknown
 key_key.chesttracker.opengui:key.keyboard.unknown
-key_key.civmodern.config:key.keyboard.5
+key_key.civmodern.config:key.keyboard.r
 key_key.civmodern.left:key.keyboard.minus
 key_key.civmodern.right:key.keyboard.equal
 key_key.civmodern.attack:key.keyboard.0
 key_key.civmodern.ice:key.keyboard.backspace
 key_key.cleanview.togglecleanview:key.keyboard.unknown
 key_key.inventoryhud.toggle:key.keyboard.i
-key_key.inventoryhud.openconfig:key.keyboard.1
+key_key.inventoryhud.openconfig:key.keyboard.o
 key_key.inventoryhud.togglepot:key.keyboard.unknown
 key_key.inventoryhud.togglearm:key.keyboard.unknown
 key_key.inventoryhud.toggleall:key.keyboard.unknown
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
-key_key.journeymap.minimap_type:key.keyboard.x
-key_key.journeymap.minimap_preset:key.keyboard.z
+key_key.journeymap.minimap_type:key.keyboard.left.bracket
+key_key.journeymap.minimap_preset:key.keyboard.backslash
 key_key.journeymap.create_waypoint:key.keyboard.b
-key_key.journeymap.toggle_waypoints:key.keyboard.m
+key_key.journeymap.toggle_waypoints:key.keyboard.z
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c
 key_key.journeymap.map_toggle_alt:key.keyboard.j
 key_key.journeymap.fullscreen_waypoints:key.keyboard.n
 key_key.journeymap.minimap_toggle_alt:key.keyboard.j
-key_key.journeymap.fullscreen_options:key.keyboard.4
+key_key.journeymap.fullscreen_options:key.keyboard.o
 key_key.journeymap.fullscreen.north:key.keyboard.up
 key_key.journeymap.fullscreen.south:key.keyboard.down
 key_key.journeymap.fullscreen.east:key.keyboard.right
@@ -179,14 +179,14 @@ key_key.snitchmod.openGui:key.keyboard.l
 key_key.snitchmod.toggleOverlay:key.keyboard.o
 key_key.snitchmod.togglePlacement:key.keyboard.p
 key_key.whereisit.finditem:key.keyboard.y
-key_key.waila.config:key.keyboard.2
+key_key.waila.config:key.keyboard.keypad.0
 key_key.waila.show_overlay:key.keyboard.keypad.1
 key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.show_recipe_input:key.keyboard.keypad.3
 key_key.waila.show_recipe_output:key.keyboard.keypad.4
 key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.v
-key_iris.keybind.shaderPackSelection:key.keyboard.3
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

@@ -29,4 +29,14 @@ mode = "fancy"
 				bat = true
 				item = true
 				creeper = true
+				zombie = true
+				squid = true
+				skeleton = true
+				glow_squid = true
+				spider = true
+				chest_minecart = true
+				enderman = true
+				husk = true
+				rabbit = true
+				salmon = true
 

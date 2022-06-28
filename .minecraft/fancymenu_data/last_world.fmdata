@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = play.civmc.net:25565
+  is_server = false
+  world = C:/Users/mattg/AppData/Roaming/.minecraft/Instances/CivClient/saves/New World
 }
 

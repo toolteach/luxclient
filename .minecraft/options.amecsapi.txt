@@ -53,7 +53,7 @@ key_modifiers_key.civmodern.attack:0,0,0
 key_modifiers_key.civmodern.ice:0,0,0
 key_modifiers_key.cleanview.togglecleanview:0,0,0
 key_modifiers_key.inventoryhud.toggle:0,0,0
-key_modifiers_key.inventoryhud.openconfig:0,1,0
+key_modifiers_key.inventoryhud.openconfig:0,0,0
 key_modifiers_key.inventoryhud.togglepot:0,0,0
 key_modifiers_key.inventoryhud.togglearm:0,0,0
 key_modifiers_key.inventoryhud.toggleall:0,0,0
@@ -103,7 +103,7 @@ key_modifiers_key.snitchmod.openGui:0,0,0
 key_modifiers_key.snitchmod.toggleOverlay:0,0,0
 key_modifiers_key.snitchmod.togglePlacement:0,0,0
 key_modifiers_key.whereisit.finditem:0,0,0
-key_modifiers_key.waila.config:0,1,0
+key_modifiers_key.waila.config:0,0,0
 key_modifiers_key.waila.show_overlay:0,0,0
 key_modifiers_key.waila.toggle_liquid:0,0,0
 key_modifiers_key.waila.show_recipe_input:0,0,0
