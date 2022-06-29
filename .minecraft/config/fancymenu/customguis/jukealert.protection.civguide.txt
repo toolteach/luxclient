@@ -1,3 +1,0 @@
-identifier = jukealert.protection.civguide
-title = 
-allowesc = true

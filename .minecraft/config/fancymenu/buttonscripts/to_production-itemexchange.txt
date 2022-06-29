@@ -1,2 +1,11 @@
-closegui
-opencustomgui:itemexchange.production.civguide
+enable_layout:layout.itemexchange.production.civguide
+disable_layout:layout.factorymod.production.civguide
+disable_layout:layout.oldenchanting.production.civguide
+disable_layout:layout.realisticbiomes.production.civguide
+disable_layout:layout.hiddenore.production.civguide
+disable_layout:layout.tradeplus.production.civguide
+disable_layout:layout.botting.production.civguide
+disable_layout:layout.brewery.production.civguide
+disable_layout:layout.anthropodegg.production.civguide
+disable_layout:layout.railswitch.production.civguide
+disable_layout:layout.obsidiangenerators.production.civguide

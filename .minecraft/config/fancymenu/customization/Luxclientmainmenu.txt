@@ -36,6 +36,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  orientation = bottom-right
+  x = -196
+  action = movebutton
+  y = -10
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
   orientation = mid-centered
   x = 104
@@ -81,6 +89,52 @@ customization {
 }
 
 customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = dea27cb8-57a9-4f95-aca9-bedbae5384421656400202446
+  y = 322
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = ac03bdf5-5c6f-46ef-ac38-4cf259fae4c61656400202449
+  y = 183
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 6492abfc-b496-4a43-bfed-10f9f1f64be21656400202449
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 406646c5-98b4-49cb-b51b-d7d91719125c1656400202449
+  y = 0
+  height = 30
+}
+
+customization {
   orientation = mid-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
@@ -98,7 +152,7 @@ customization {
 customization {
   orientation = bottom-left
   shadow = true
-  x = 2
+  x = 1
   actionid = 825e6b99-024c-4931-8967-dc6d4a684f501655959161027
   action = addtext
   y = -10
@@ -147,7 +201,7 @@ customization {
   width = 34
   actionid = 9e6592bc-a52c-4d2b-acfe-54fe0ec933401656145093523
   action = addbutton
-  y = 304
+  y = 272
   backgroundnormal = config\fancymenu\Images and etc\invisible-png.png
   value = 
   height = 33
@@ -160,7 +214,7 @@ customization {
   x = 608
   actionid = 3e7051dd-99ec-47ab-9fed-e78f03b5bb3e1656145135570
   action = addtext
-  y = 329
+  y = 293
   scale = 1.0
   alignment = left
   value = Meow
@@ -171,11 +225,11 @@ customization {
   path = config/fancymenu/Images and etc/feline.png
   orientation = top-left
   vr:showif:buttonhovered = true
-  x = 609
+  x = 610
   width = 20
   action = addtexture
   actionid = f3a14132-21f1-4ca6-85a3-3bfd79cf00e91656145176547
-  y = 310
+  y = 274
   vr:value:buttonhovered = 9e6592bc-a52c-4d2b-acfe-54fe0ec933401656145093523
   height = 18
 }

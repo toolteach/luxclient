@@ -1,3 +1,0 @@
-identifier = namelayer.protection.civguide
-title = 
-allowesc = true

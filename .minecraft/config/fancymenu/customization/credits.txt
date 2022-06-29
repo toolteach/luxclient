@@ -41,13 +41,13 @@ customization {
 
 customization {
   showname = true
-  orientation = top-left
+  orientation = mid-centered
   crouching = false
-  x = 259
+  x = -61
   slim = false
   actionid = c760fff0-a37c-4685-acf8-e15a92bfa5171656144207723
   action = addentity
-  y = 128
+  y = -39
   scale = 30
   playername = TripleLuxen
   parrot = false
@@ -55,25 +55,25 @@ customization {
 
 customization {
   showname = true
-  orientation = top-left
+  orientation = mid-centered
   crouching = false
-  x = 259
+  x = -61
   slim = false
   actionid = 2f636af6-905a-4e94-a3bb-4a8a0dfd38a91656144276610
   action = addentity
-  y = 209
+  y = 41
   scale = 30
   playername = Ziwin
   parrot = false
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   shadow = false
-  x = 288
+  x = -32
   actionid = e8940bae-6c5b-4cc6-902e-0be1973a48281656144616914
   action = addtext
-  y = 70
+  y = -97
   scale = 2.0
   alignment = left
   value = TripleLuxen
@@ -104,12 +104,12 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-centered
   shadow = false
-  x = 289
+  x = -32
   actionid = 2f215d66-cdb9-4d4e-be1b-79820fe633211656144694680
   action = addtext
-  y = 91
+  y = -77
   scale = 1.0
   alignment = left
   value = Client Creator / Designer
@@ -130,13 +130,13 @@ customization {
 customization {
   orientation = top-left
   shadow = false
-  x = 289
+  x = 288
   actionid = 21d103ec-9cd8-44fc-9fdd-0cc1c09b27ba1656144738527
   action = addtext
   y = 250
   scale = 1.0
   alignment = left
-  value = Support, Special Thanks
+  value = Support / Special Thanks
 }
 
 customization {

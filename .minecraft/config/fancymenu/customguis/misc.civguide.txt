@@ -1,0 +1,3 @@
+identifier = misc.civguide
+title = 
+allowesc = true

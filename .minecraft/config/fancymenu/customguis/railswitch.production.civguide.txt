@@ -1,3 +1,0 @@
-identifier = railswitch.production.civguide
-title = 
-allowesc = true

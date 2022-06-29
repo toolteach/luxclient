@@ -1,0 +1,2 @@
+opencustomgui:production.civguide
+set_variable:factorymodpage:1

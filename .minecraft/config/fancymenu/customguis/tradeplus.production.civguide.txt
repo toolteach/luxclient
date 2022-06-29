@@ -1,3 +1,0 @@
-identifier = tradeplus.production.civguide
-title = 
-allowesc = true

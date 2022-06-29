@@ -1,0 +1,11 @@
+type = cached_variables
+
+variables {
+  productionpage = 1
+  combatpage = 1
+  protectionpage = 1
+  worldpage = 1
+  miscpage = 1
+  factorymodpage = 1
+}
+

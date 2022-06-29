@@ -1,3 +1,0 @@
-identifier = kira.misc.civguide
-title = 
-allowesc = true

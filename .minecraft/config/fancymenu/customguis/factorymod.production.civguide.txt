@@ -1,3 +1,0 @@
-identifier = factorymod.production.civguide
-title = 
-allowesc = true

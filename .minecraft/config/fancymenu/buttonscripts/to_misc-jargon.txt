@@ -1,2 +1,2 @@
-closegui
-opencustomgui:jargon.misc.civguide
+enable_layout:layout.jargon.misc.civguide
+disable_layout:layout.kira.misc.civguide

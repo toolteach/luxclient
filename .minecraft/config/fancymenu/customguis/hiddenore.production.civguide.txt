@@ -1,3 +1,0 @@
-identifier = hiddenore.production.civguide
-title = 
-allowesc = true

@@ -1,2 +1,3 @@
-closegui
-opencustomgui:exilepearl.combat.civguide
+enable_layout:layout.exilepearl.combat.civguide
+disable_layout:layout.combatchanges.combat.civguide
+disable_layout:layout.combattag.combat.civguide

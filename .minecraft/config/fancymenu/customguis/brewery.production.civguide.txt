@@ -1,3 +1,0 @@
-identifier = brewery.production.civguide
-title = 
-allowesc = true

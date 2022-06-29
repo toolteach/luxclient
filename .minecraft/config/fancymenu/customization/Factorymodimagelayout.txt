@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = factorymodimage
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  x = 153
+  width = 334
+  action = addwebtexture
+  actionid = db990eae-82a9-4199-9fa9-230d7bb470811656485303577
+  y = -7
+  url = https://static.miraheze.org/civwikiwiki/7/7b/FactoryMod_infographic.png
+  height = 365
+}
+

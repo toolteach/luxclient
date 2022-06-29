@@ -1,3 +1,0 @@
-identifier = jargon.misc.civguide
-title = 
-allowesc = true

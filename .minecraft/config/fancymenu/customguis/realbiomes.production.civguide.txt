@@ -1,3 +1,0 @@
-identifier = realbiomes.production.civguide
-title = 
-allowesc = true

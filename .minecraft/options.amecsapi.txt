@@ -46,12 +46,8 @@ key_modifiers_key.amecs.toggle_left_pants_leg:0,0,0
 key_modifiers_key.amecs.toggle_right_pants_leg:0,0,0
 key_modifiers_key.amecs.toggle_hat:0,0,0
 key_modifiers_key.chesttracker.opengui:0,0,0
-key_modifiers_key.civmodern.config:0,1,0
-key_modifiers_key.civmodern.left:0,0,0
-key_modifiers_key.civmodern.right:0,0,0
-key_modifiers_key.civmodern.attack:0,0,0
-key_modifiers_key.civmodern.ice:0,0,0
 key_modifiers_key.cleanview.togglecleanview:0,0,0
+key_modifiers_Combat Radar Settings:0,0,0
 key_modifiers_key.inventoryhud.toggle:0,0,0
 key_modifiers_key.inventoryhud.openconfig:0,0,0
 key_modifiers_key.inventoryhud.togglepot:0,0,0
@@ -76,6 +72,7 @@ key_modifiers_key.journeymap.fullscreen.west:0,0,0
 key_modifiers_key.journeymap.fullscreen.disable_buttons:0,0,0
 key_modifiers_key.lightoverlay.enable_overlay:0,0,0
 key_modifiers_key.map-sync.openGui:0,0,0
+key_modifiers_key.modmenu.open_menu:0,0,0
 key_modifiers_key.mousewheelie.open_config_screen:0,0,0
 key_modifiers_key.mousewheelie.sort_inventory:0,0,0
 key_modifiers_key.mousewheelie.scroll_up:0,0,0

@@ -1,0 +1,2 @@
+opencustomgui:world.civguide
+set_variable:worldpage:1

@@ -1,3 +1,0 @@
-identifier = terrain.world.civguide
-title = 
-allowesc = true

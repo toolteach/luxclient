@@ -1,3 +1,0 @@
-identifier = bastion.protection.civguide
-title = 
-allowesc = true
