@@ -4,8 +4,12 @@ variables {
   productionpage = 1
   combatpage = 1
   protectionpage = 1
+  realisticbiomespage = 1
   worldpage = 1
   miscpage = 1
-  factorymodpage = 1
+  factorymodpage = 2
+  itemexchangepage = 1
+  brewerypage = 1
+  railswitchpage = 1
 }
 

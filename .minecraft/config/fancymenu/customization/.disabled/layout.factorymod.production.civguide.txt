@@ -93,7 +93,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
   action = addbutton
@@ -108,7 +108,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
   action = addbutton
@@ -123,7 +123,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
   action = addbutton
@@ -138,7 +138,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
   action = addbutton
@@ -153,7 +153,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
   action = addbutton

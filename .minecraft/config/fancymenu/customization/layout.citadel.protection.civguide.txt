@@ -88,3 +88,27 @@ customization {
   height = 20
 }
 
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = 4e3d8680-9d1a-49a0-99a1-ac2e9032cdad1656586469807
+  y = 34
+  height = 7
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = true
+  x = 114
+  actionid = 42b49f49-420b-42ec-a8d3-4a02a883c0d11656586649118
+  action = addwebtext
+  y = 11
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/citadel.md
+}
+

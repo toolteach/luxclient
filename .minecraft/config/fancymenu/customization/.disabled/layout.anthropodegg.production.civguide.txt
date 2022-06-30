@@ -93,7 +93,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
   action = addbutton
@@ -108,7 +108,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
   action = addbutton
@@ -123,7 +123,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
   action = addbutton
@@ -138,7 +138,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
   action = addbutton
@@ -153,7 +153,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
   action = addbutton
@@ -176,5 +176,40 @@ customization {
   label = ObsidianGenerators
   value = to_production-obsidiangen
   height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = 631fa112-3340-46b2-b4b0-d14ec6dd365e1656584103950
+  y = 269
+  height = 7
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = true
+  x = 114
+  actionid = c2f5a58c-549a-47fb-8929-41d4216e8ba71656584214729
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/anthropodegg.md
+}
+
+customization {
+  path = config/fancymenu/Images and etc/anthroegg.png
+  orientation = top-left
+  x = 116
+  width = 318
+  action = addtexture
+  actionid = b10eed44-53cf-4eeb-af02-ce821a618cb21656584244764
+  y = 78
+  height = 117
 }
 

@@ -1,6 +1,6 @@
-[00:18:33] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.8
-[00:18:33] [ForkJoinPool-1-worker-6/WARN]: Mod ears uses the version 1.4.5_01 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5_01'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[00:18:34] [main/INFO]: Loading 145 mods:
+[00:48:26] [main/INFO]: Loading Minecraft 1.18.2 with Fabric Loader 0.14.8
+[00:48:26] [ForkJoinPool-1-worker-4/WARN]: Mod ears uses the version 1.4.5_01 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '5_01'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[00:48:27] [main/INFO]: Loading 145 mods:
 	- advanced_runtime_resource_pack 0.5.5 via enhancedblockentities
 	- amecs 1.3.8+mc.1.18.2
 	- amecsapi 1.3.6+mc22w06a via mousewheelie
@@ -146,133 +146,185 @@
 	- whereisit 1.14.10 via chesttracker
 	- wi_zoom 1.4-MC1.18.2
 	- wthit 4.11.0
-[00:18:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/mattg/Downloads/mmc-stable-win32(1)/MultiMC/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[00:18:35] [main/INFO]: Compatibility level set to JAVA_16
-[00:18:35] [main/INFO]: Compatibility level set to JAVA_17
-[00:18:37] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 1 override(s) found
-[00:18:37] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
-[00:18:37] [main/INFO]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinMinecraft | TO TARGET: net.minecraft.class_310
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinScreen | TO TARGET: net.minecraft.class_437
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinMouseHandler | TO TARGET: net.minecraft.class_312
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinGameRenderer | TO TARGET: net.minecraft.class_757
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinKeyboardHandler | TO TARGET: net.minecraft.class_309
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinScreenEvents | TO TARGET: net.fabricmc.fabric.api.client.screen.v1.ScreenEvents
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinKeyboardHandler | TO TARGET: net.minecraft.class_309
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinEditBox | TO TARGET: net.minecraft.class_342
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinAbstractWidget | TO TARGET: net.minecraft.class_339
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinMouseHandler | TO TARGET: net.minecraft.class_312
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinClientLanguage | TO TARGET: net.minecraft.class_1078
-[00:18:39] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinDynamicTexture | TO TARGET: net.minecraft.class_1043
-[00:18:39] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[00:18:39] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
-[00:18:40] [main/INFO]: I used the json to destroy the json
-[00:18:41] [main/INFO]: Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
-[00:18:42] [main/INFO]: Smooth Boot config initialized
-[00:18:43] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
-[00:18:45] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
-[00:18:46] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
-[00:18:46] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
-[00:19:02] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
-[00:19:02] [Render thread/WARN]: @Redirect conflict. Skipping notenoughcrashes.fabric.mixins.json:client.CatchInitMInecraftClientMixin from mod notenoughcrashes->@Redirect::catchFabricInit(Ljava/io/File;Ljava/lang/Object;)V with priority 1000, already redirected by better_loading_screen.mixins.json:MixinMinecraft from mod better_loading_screen->@Redirect::init(Ljava/io/File;Ljava/lang/Object;)V with priority 1000
-[00:19:03] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:19:04] [Render thread/INFO]: Setting user: TripleLuxen
-[00:19:04] [Render thread/INFO]: Connectivity initialized
-[00:19:05] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:MixinServerPlayNetworkHandler from mod tweakeroo->@Redirect::tweakeroo_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005, already redirected by mixins.litematica.json:MixinServerPlayNetworkHandler from mod litematica->@Redirect::litematica_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1010
-[00:19:06] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.iris.json:texture.MixinAbstractTexture from mod iris::handler$bic000$iris$afterGenerateId exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[00:19:08] [Render thread/INFO]: Initializing ServerSide Packet Registries
-[00:19:10] [Render thread/INFO]: Loaded Profiles:
-[00:19:10] [Render thread/INFO]:     default
-[00:19:10] [Render thread/INFO]: [KONKRETE] Successfully initialized!
-[00:19:10] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
-[00:19:10] [Render thread/INFO]: [Stendhal] Initializing
-[00:19:11] [Render thread/INFO]: [STDOUT]: Starting WI Zoom v1.4-MC1.18.2
-[00:19:11] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
-[00:19:11] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
-[00:19:11] [Render thread/INFO]: [WTHIT] Plugin config reloaded
-[00:19:14] [Render thread/INFO]: Loading 62 entities from Custom Entity Models 0.7.1
-[00:19:15] [Render thread/INFO]: [citresewn] Registering CIT Conditions
-[00:19:15] [Render thread/INFO]: [citresewn] Registering CIT Types
-[00:19:15] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_1059::method_18163(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;I)Lnet/minecraft/class_1059$class_4007; has incompatible changes at opcode 66 in callback better_loading_screen-common.mixins.json:MixinTextureAtlas from mod better_loading_screen->@Inject::prepareToStitchOptifine(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;ILjava/util/Set;)V.
+[00:48:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/mattg/Downloads/mmc-stable-win32(1)/MultiMC/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[00:48:27] [main/INFO]: Compatibility level set to JAVA_16
+[00:48:27] [main/INFO]: Compatibility level set to JAVA_17
+[00:48:28] [main/INFO]: Loaded configuration file for Lithium: 102 options available, 1 override(s) found
+[00:48:28] [main/INFO]: Loaded configuration file for Sodium: 29 options available, 1 override(s) found
+[00:48:28] [main/INFO]: Loaded configuration file for Sodium Extra: 27 options available, 0 override(s) found
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinMinecraft | TO TARGET: net.minecraft.class_310
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinScreen | TO TARGET: net.minecraft.class_437
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinMouseHandler | TO TARGET: net.minecraft.class_312
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinGameRenderer | TO TARGET: net.minecraft.class_757
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinKeyboardHandler | TO TARGET: net.minecraft.class_309
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.MixinScreenEvents | TO TARGET: net.fabricmc.fabric.api.client.screen.v1.ScreenEvents
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinKeyboardHandler | TO TARGET: net.minecraft.class_309
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinEditBox | TO TARGET: net.minecraft.class_342
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinAbstractWidget | TO TARGET: net.minecraft.class_339
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinMouseHandler | TO TARGET: net.minecraft.class_312
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinClientLanguage | TO TARGET: net.minecraft.class_1078
+[00:48:29] [main/INFO]: APPLYING MIXIN: de.keksuccino.konkrete.mixin.mixins.client.IMixinDynamicTexture | TO TARGET: net.minecraft.class_1043
+[00:48:29] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[00:48:29] [main/WARN]: Force-disabling mixin 'features.sky.MixinWorldRenderer' as rule 'mixin.features.sky' (added by mods [iris]) disables it and children
+[00:48:29] [main/INFO]: I used the json to destroy the json
+[00:48:30] [main/INFO]: Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
+[00:48:30] [main/INFO]: Smooth Boot config initialized
+[00:48:30] [main/WARN]: Configuration conflict: there is more than one oshi.properties file on the classpath
+[00:48:31] [main/WARN]: Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[00:48:31] [main/WARN]: @Final field field_22786:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[00:48:31] [main/WARN]: @Final field field_33815:Ljava/util/List; in mixins.ipnext.json:MixinScreen from mod inventoryprofilesnext should be final
+[00:48:40] [Render thread/WARN]: Method overwrite conflict for method_22920 in sodium.mixins.json:features.buffer_builder.intrinsics.MixinBufferBuilder from mod sodium, previously written by net.coderbot.iris.mixin.vertices.block_rendering.MixinBufferBuilder_SeparateAo. Skipping method.
+[00:48:40] [Render thread/WARN]: @Redirect conflict. Skipping notenoughcrashes.fabric.mixins.json:client.CatchInitMInecraftClientMixin from mod notenoughcrashes->@Redirect::catchFabricInit(Ljava/io/File;Ljava/lang/Object;)V with priority 1000, already redirected by better_loading_screen.mixins.json:MixinMinecraft from mod better_loading_screen->@Redirect::init(Ljava/io/File;Ljava/lang/Object;)V with priority 1000
+[00:48:40] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:48:41] [Render thread/INFO]: Setting user: TripleLuxen
+[00:48:41] [Render thread/INFO]: Connectivity initialized
+[00:48:41] [Render thread/WARN]: @Redirect conflict. Skipping mixins.tweakeroo.json:MixinServerPlayNetworkHandler from mod tweakeroo->@Redirect::tweakeroo_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1005, already redirected by mixins.litematica.json:MixinServerPlayNetworkHandler from mod litematica->@Redirect::litematica_removeHitPosCheck(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lnet/minecraft/class_243; with priority 1010
+[00:48:41] [Render thread/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on mixins.iris.json:texture.MixinAbstractTexture from mod iris::handler$bic000$iris$afterGenerateId exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[00:48:42] [Render thread/INFO]: Initializing ServerSide Packet Registries
+[00:48:43] [Render thread/INFO]: Loaded Profiles:
+[00:48:43] [Render thread/INFO]:     default
+[00:48:43] [Render thread/INFO]: [KONKRETE] Successfully initialized!
+[00:48:43] [Render thread/INFO]: [KONKRETE] Server-side libs ready to use!
+[00:48:43] [Render thread/INFO]: [Stendhal] Initializing
+[00:48:43] [Render thread/INFO]: [STDOUT]: Starting WI Zoom v1.4-MC1.18.2
+[00:48:43] [Render thread/INFO]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.plugin.core.WailaCore
+[00:48:43] [Render thread/INFO]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.plugin.vanilla.WailaVanilla
+[00:48:43] [Render thread/INFO]: [WTHIT] Plugin config reloaded
+[00:48:45] [Render thread/INFO]: Loading 62 entities from Custom Entity Models 0.7.1
+[00:48:45] [Render thread/INFO]: [citresewn] Registering CIT Conditions
+[00:48:45] [Render thread/INFO]: [citresewn] Registering CIT Types
+[00:48:45] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_1059::method_18163(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;I)Lnet/minecraft/class_1059$class_4007; has incompatible changes at opcode 66 in callback better_loading_screen-common.mixins.json:MixinTextureAtlas from mod better_loading_screen->@Inject::prepareToStitchOptifine(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;ILjava/util/Set;)V.
  Expected: [I, Ljava/util/Set;]
     Found: [Ljava/util/Set;, I]
 Available: [Ljava/util/Set;, I, Lnet/minecraft/class_1055;, I, I]
-[00:19:15] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_1059::method_18163(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;I)Lnet/minecraft/class_1059$class_4007; has incompatible changes at opcode 236 in callback better_loading_screen-common.mixins.json:MixinTextureAtlas from mod better_loading_screen->@Inject::stitchOptifine(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;ILjava/util/Set;Ljava/util/Set;ILnet/minecraft/class_1055;)V.
+[00:48:45] [Render thread/WARN]: Injection warning: LVT in net/minecraft/class_1059::method_18163(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;I)Lnet/minecraft/class_1059$class_4007; has incompatible changes at opcode 236 in callback better_loading_screen-common.mixins.json:MixinTextureAtlas from mod better_loading_screen->@Inject::stitchOptifine(Lnet/minecraft/class_3300;Ljava/util/stream/Stream;Lnet/minecraft/class_3695;ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;ILjava/util/Set;Ljava/util/Set;ILnet/minecraft/class_1055;)V.
  Expected: [I, Ljava/util/Set;, Ljava/util/Set;, I, Lnet/minecraft/class_1055;]
     Found: [Ljava/util/Set;, I, Lnet/minecraft/class_1055;, I]
 Available: [Ljava/util/Set;, I, Lnet/minecraft/class_1055;, I]
-[00:19:16] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
-[00:19:17] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
-[00:19:17] [Render thread/INFO]: [LambdaBetterGrass] Initializing LambdaBetterGrass...
-[00:19:17] [Render thread/INFO]: [LambdaBetterGrass] Configuration loaded.
-[00:19:17] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
-[00:19:17] [Render thread/INFO]: [LambDynLights] Configuration loaded.
-[00:19:18] [Render thread/INFO]: [STDOUT]: [map-sync] Loaded existing C:\Users\mattg\Downloads\mmc-stable-win32(1)\MultiMC\instances\Lux Client\.minecraft\MapSync\mod-config.json
-[00:19:18] [Render thread/INFO]: [STDOUT]: Saving ModConfig to C:\Users\mattg\Downloads\mmc-stable-win32(1)\MultiMC\instances\Lux Client\.minecraft\MapSync\mod-config.json
-[00:19:18] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
-[00:19:18] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
-[00:19:19] [Render thread/INFO]: Reloaded configs for mousewheelie (universal/highest)
-[00:19:20] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
-[00:19:20] [Early Visualization/INFO]: Set render to false
-[00:19:20] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Unable to download https://github.com/IrisShaders/Iris-Update-Index/releases/download/test/updateIndex.json
-[00:19:21] [Render thread/INFO]: Debug functionality is disabled.
-[00:19:21] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
-[00:19:21] [Render thread/INFO]: Shaders are disabled
-[00:19:22] [Render thread/INFO]: Hardware information:
-[00:19:22] [Render thread/INFO]: CPU: 6x AMD Ryzen 5 4500U with Radeon Graphics 
-[00:19:22] [Render thread/INFO]: GPU: AMD Radeon(TM) Graphics (Supports OpenGL 4.6.13587 Compatibility Profile Context 19.40.40 26.20.14040.0)
-[00:19:22] [Render thread/INFO]: OS: Windows 10 (10.0)
-[00:19:24] [Render thread/INFO]: Narrator library for x64 successfully loaded
-[00:19:24] [Render thread/INFO]: ARRP register - before vanilla
-[00:19:24] [Render thread/INFO]: ARRP register - after vanilla
-[00:19:24] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Runtime Resource Pack, Amecs, Amecs API, AppleSkin, Auth Me, Better Loading Screen, Better Third Person, CaffeineConfig, Custom Entity Models, Chest Tracker, CIT Resewn, CIT Resewn: Defaults, CleanView, Cloth Config v6, Coat, CombatRadar, CompleteConfig, Connectivity Mod, Continuity, CreativeCore (Fabric), Ears, Enhanced Block Entities, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Falling Leaves, FancyMenu, Horse Stats Vanilla, Indium, Inventory HUD +, Inventory Profiles Next, Iris, Jankson, Just Enough Items, Journeymap, Js Macros, Konkrete, LambdaBetterGrass, LambDynamicLights, LazyDFU, LibGui, Light Overlay, Litematica, Lithium, MaLiLib, Map Sync, Map Tooltip, Mod Menu, Mouse Wheelie, Not Enough Crashes, Pride Lib, RebindAllTheKeys, Reese's Sodium Options, Simple RPC, Smooth Boot, Snitch Mod, Sodium, Sodium Extra, spark, SpruceUI, Starlight, Stendhal, Time To Live, Tweakeroo, tweed4_annotated, tweed4_base, tweed4_data, tweed4_data_hjson, tweed4_tailor_coat, tweed4_tailor_screen, Where Is It, WI Zoom, wthit)
-[00:19:24] [Render thread/INFO]: [LambdaBetterGrass] Inject generated resource packs.
-[00:19:24] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
-[00:19:24] [Render thread/INFO]: [STDOUT]: [KONKRETE] Running PostLoadingEvents for mod: fancymenu
-[00:19:25] [Render thread/INFO]: [STDOUT]: [KONKRETE] PostLoadingEvents completed for mod: fancymenu
-[00:19:25] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
-[00:19:26] [Render thread/INFO]: [STDOUT]: [FANCYMENU] Custom minecraft icon successfully loaded!
-[00:19:26] [Render thread/INFO]: [CombatRadar]: JourneyMap is found
-[00:19:26] [Render thread/INFO]: [CombatRadar]: VoxelMap is NOT found
-[00:19:26] [Render thread/INFO]: [CombatRadar]: mod enabled
-[00:19:26] [Render thread/INFO]: Initializing ClientSide Packet Registries
-[00:19:26] [Render thread/INFO]: No plugins for JourneyMap API discovered.
-[00:19:27] [Render thread/INFO]: JourneyMap log initialized.
-[00:19:27] [Render thread/INFO]: initialize ENTER
-[00:19:27] [Render thread/INFO]: [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
-[00:19:27] [Render thread/INFO]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[00:19:29] [Render thread/INFO]: initialize EXIT, elapsed count 1 avg 2610.27ms
-[00:19:29] [Render thread/INFO]: Preloaded theme textures: 0
-[00:19:29] [Render thread/INFO]: postInitialize EXIT, elapsed count 1 avg 314.6ms
-[00:19:30] [Render thread/WARN]: [inventoryprofilesnext] Unknown config key 'first_run' with value 'false'
-[00:19:30] [Render thread/WARN]: [inventoryprofilesnext] Unknown config key 'first_run' with value 'false'
-[00:19:31] [Render thread/INFO]: [STDOUT]: [FANCYMENU] Custom minecraft icon successfully loaded!
-[00:19:31] [Render thread/INFO]: [STDOUT]: InvGUI Initialized
-[00:19:37] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
-[00:19:37] [Render thread/INFO]: Sound engine started
-[00:19:37] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[00:19:38] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[00:19:38] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[00:19:38] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[00:19:38] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[00:19:38] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[00:19:38] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[00:19:38] [Render thread/INFO]: Moving render out
-[00:19:38] [Render thread/INFO]: Acquired lock for render out
-[00:19:38] [Early Visualization/INFO]: Set render to true
-[00:19:39] [Render thread/INFO]: Moving render in
-[00:19:39] [Render thread/INFO]: Acquired lock for render in
-[00:19:39] [Early Visualization/INFO]: Set render to false
-[00:19:39] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[00:19:39] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[00:19:39] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[00:19:39] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[00:19:40] [Render thread/INFO]: Reloaded configs for mousewheelie (client/smallest)
-[00:19:40] [Render thread/WARN]: Existing color palette's mods no longer match current loadout.
-[00:19:40] [Render thread/INFO]: WAS: Runtime Resource Pack:0.5.5, Amecs:1.3.8+mc.1.18.2, Amecs API:1.3.6+mc22w06a, AppleSkin:2.4.0+mc1.18.2, Architectury:4.5.75, Auth Me:3.1.0, Bad Packets:0.1.2, Better Loading Screen:1.4.0, Better Third Person:1.8.1, jankson:1.2.1, CaffeineConfig:1.1.0, Custom Entity Models:0.7.1, Chest Tracker:1.1.16, CIT Resewn:1.1.0+1.18.2, CIT Resewn: Defaults:1.1.0+1.18.2, CleanView:1.18.2-v1-fabric, Cloth API:3.2.64, cloth-basic-math:0.6.1, Cloth Client Events v0:3.2.64, Cloth Common Events v1:3.2.64, Cloth Config v6:6.2.62, Cloth Datagen v1:3.2.64, Cloth Scissors API v1:3.2.64, Cloth Utils v1:3.2.64, Clumps:8.0.0+10, Coat:1.0.0-beta.18+mc1.18.2, nv-websocket-client:2.10, CombatRadar:1.6, CompleteConfig:1.0.0, Connectivity Mod:1.18.2-3.3, Continuity:2.0.0+1.18.2, CreativeCore (Fabric):2.6.12, Ears:1.4.5_01, Enhanced Block Entities:0.7.1+1.18.2, Fabric API:0.57.0+1.18.2, Fabric API Base:0.4.4+d7c144a860, Fabric API Lookup API (v1):1.6.2+2373a54560, Fabric Biome API (v1):8.0.6+651bcc5960, Fabric BlockRenderLayer Registration (v1):1.1.12+3ac43d9560, Fabric Command API (v1):1.1.9+d7c144a860, Fabric Commands (v0):0.2.8+b4f4f6cd60, Fabric Containers (v0):0.1.22+d7c144a860, Fabric Content Registries (v0):3.1.1+c85f2e3860, Fabric Convention Tags:1.0.1+474e4f7960, Fabric Crash Report Info (v1):0.2.1+ee261a3e60, Fabric Data Generation API (v1):3.0.0+9fcb91d260, Fabric Dimensions API (v1):2.1.20+489d6f8260, Fabric Entity Events (v1):1.4.8+d7c144a860, Fabric Events Interaction (v0):0.4.19+d7c144a860, Fabric Events Lifecycle (v0):0.2.18+d7c144a860, Fabric Game Rule API (v1):1.0.13+d7c144a860, Fabric Item API (v1):1.5.1+6c4e5d0960, Fabric Item Groups (v0):0.3.14+91896a4960, Fabric Key Binding API (v1):1.0.12+54e5b2ec60, Fabric Key Bindings (v0):0.2.10+b4f4f6cd60, Fabric Lifecycle Events (v1):2.1.0+cc71601c60, Fabric Loot API (v2):1.1.0+1997ad1260, Fabric Loot Tables (v1):1.1.2+e747827960, Fabric Mining Level API (v1):2.1.4+cc71601c60, Fabric Models (v0):0.3.6+d7c144a860, Fabric Networking API (v1):1.0.22+e6b169eb60, Fabric Networking (v0):0.3.9+b4f4f6cd60, Fabric Object Builder API (v1):2.1.3+032c981d60, Fabric Particles (v1):0.2.12+526dc1ac60, fabric-permissions-api:0.1-SNAPSHOT, Fabric Registry Sync (v0):0.9.9+0d9ab37260, Fabric Renderer API (v1):0.4.13+d882b91560, Fabric Renderer - Indigo:0.5.2+d005b03a60, Fabric Renderer Registries (v1):3.2.11+b4f4f6cd60, Fabric Rendering Data Attachment (v1):0.3.7+d7c144a860, Fabric Rendering Fluids (v1):2.0.2+54e5b2ec60, Fabric Rendering (v0):1.1.13+b4f4f6cd60, Fabric Rendering (v1):1.10.7+54e5b2ec60, Fabric Resource Conditions API (v1):2.0.3+91b7aa6660, Fabric Resource Loader (v0):0.5.2+446e059560, Fabric Screen API (v1):1.0.10+d882b91560, Fabric Screen Handler API (v1):1.2.1+1f6558e860, Fabric Textures (v0):1.0.12+3ac43d9560, Fabric Transfer API (v1):1.6.3+f4563ac860, Fabric Transitive Access Wideners (v1):1.1.0+e747827960, Fabric Loader:0.14.8, Falling Leaves:1.11.1+1.18.2, FancyMenu:2.9.1, FerriteCore:4.2.1, Horse Stats Vanilla:4.1.10, I Know What I'm Doing:4.1.0, Indium:1.0.6+mc1.18.2, Inventory HUD +:3.4.2, Inventory Profiles Next:1.5.3, prism4j:2.0.0, Iris:1.2.5, Jankson:4.0.0+j1.2.0, OpenJDK 64-Bit Server VM:17, Just Enough Items:10.1.0.208, JourneyMap API:1.18.2-1.8-fabric-SNAPSHOT, Journeymap:5.8.5, Js Macros:1.7.0, Konkrete:1.3.3, LambdaBetterGrass:1.2.4+1.18, LambDynamicLights:2.1.0+1.17, LazyDFU:0.1.2, LibGui:5.3.1+1.18, LibNinePatch:1.1.0, Light Overlay:6.0.5, Litematica:0.11.3, Lithium:0.7.10, MaLiLib:0.12.1, Map Sync:2.0.0-1.18.2, Map Tooltip:1.3.2, simple-rpc-common:3.0.1, Minecraft:1.18.2, Mod Menu:3.2.3, Mouse Tweaks:2.22, Mouse Wheelie:1.10.1+mc1.18.2, Not Enough Crashes:4.1.6+1.18.2, jcpp:1.4.14, js:22.1.0, regex:22.1.0, graal-sdk:22.1.0, truffle-api:22.1.0, javassist:3.28.0-GA, joml:1.10.2, Pride Lib:1.1.0+1.17, RebindAllTheKeys:1.1.1+1.18, Reese's Sodium Options:1.4.3+mc1.18.2-build.42, Simple RPC:3.0.1, Smooth Boot:1.18.2-1.7.0, Snitch Mod:1.3.2-1.18.2, Sodium:0.4.1+build.15, Sodium Extra:0.4.5+mc1.18.2-build.42, spark:1.9.11, SpruceUI:3.3.3+1.18, Starlight:1.0.2+fabric.89b8d9f, Stendhal:1.3.3-1.18, Time To Live:0.4, Tweakeroo:0.13.3, tweed4_annotated:1.3.0+mc1.18.2, tweed4_base:1.5.0+mc1.18.2, tweed4_data:1.2.1+mc1.18.2, tweed4_data_hjson:1.1.0+mc1.18.2, tweed4_tailor_coat:1.1.2+mc1.18.2, tweed4_tailor_screen:1.1.1+mc1.18.2, Where Is It:1.14.10, WI Zoom:1.4-MC1.18.2, wthit:4.11.0
-NOW: Runtime Resource Pack:0.5.5, Amecs:1.3.8+mc.1.18.2, Amecs API:1.3.6+mc22w06a, AppleSkin:2.4.0+mc1.18.2, Architectury:4.5.75, Auth Me:3.1.0, Bad Packets:0.1.2, Better Loading Screen:1.4.0, Better Third Person:1.8.1, jankson:1.2.1, CaffeineConfig:1.1.0, Custom Entity Models:0.7.1, Chest Tracker:1.1.16, CIT Resewn:1.1.0+1.18.2, CIT Resewn: Defaults:1.1.0+1.18.2, CleanView:1.18.2-v1-fabric, Cloth API:3.2.64, cloth-basic-math:0.6.1, Cloth Client Events v0:3.2.64, Cloth Common Events v1:3.2.64, Cloth Config v6:6.2.62, Cloth Datagen v1:3.2.64, Cloth Scissors API v1:3.2.64, Cloth Utils v1:3.2.64, Clumps:8.0.0+10, Coat:1.0.0-beta.18+mc1.18.2, nv-websocket-client:2.10, CombatRadar:1.6, CompleteConfig:1.0.0, Connectivity Mod:1.18.2-3.3, Continuity:2.0.0+1.18.2, CreativeCore (Fabric):2.6.12, Ears:1.4.5_01, Enhanced Block Entities:0.7.1+1.18.2, Fabric API:0.57.0+1.18.2, Fabric API Base:0.4.4+d7c144a860, Fabric API Lookup API (v1):1.6.2+2373a54560, Fabric Biome API (v1):8.0.6+651bcc5960, Fabric BlockRenderLayer Registration (v1):1.1.12+3ac43d9560, Fabric Command API (v1):1.1.9+d7c144a860, Fabric Commands (v0):0.2.8+b4f4f6cd60, Fabric Containers (v0):0.1.22+d7c144a860, Fabric Content Registries (v0):3.1.1+c85f2e3860, Fabric Convention Tags:1.0.1+474e4f7960, Fabric Crash Report Info (v1):0.2.1+ee261a3e60, Fabric Data Generation API (v1):3.0.0+9fcb91d260, Fabric Dimensions API (v1):2.1.20+489d6f8260, Fabric Entity Events (v1):1.4.8+d7c144a860, Fabric Events Interaction (v0):0.4.19+d7c144a860, Fabric Events Lifecycle (v0):0.2.18+d7c144a860, Fabric Game Rule API (v1):1.0.13+d7c144a860, Fabric Item API (v1):1.5.1+6c4e5d0960, Fabric Item Groups (v0):0.3.14+91896a4960, Fabric Key Binding API (v1):1.0.12+54e5b2ec60, Fabric Key Bindings (v0):0.2.10+b4f4f6cd60, Fabric Lifecycle Events (v1):2.1.0+cc71601c60, Fabric Loot API (v2):1.1.0+1997ad1260, Fabric Loot Tables (v1):1.1.2+e747827960, Fabric Mining Level API (v1):2.1.4+cc71601c60, Fabric Models (v0):0.3.6+d7c144a860, Fabric Networking API (v1):1.0.22+e6b169eb60, Fabric Networking (v0):0.3.9+b4f4f6cd60, Fabric Object Builder API (v1):2.1.3+032c981d60, Fabric Particles (v1):0.2.12+526dc1ac60, fabric-permissions-api:0.1-SNAPSHOT, Fabric Registry Sync (v0):0.9.9+0d9ab37260, Fabric Renderer API (v1):0.4.13+d882b91560, Fabric Renderer - Indigo:0.5.2+d005b03a60, Fabric Renderer Registries (v1):3.2.11+b4f4f6cd60, Fabric Rendering Data Attachment (v1):0.3.7+d7c144a860, Fabric Rendering Fluids (v1):2.0.2+54e5b2ec60, Fabric Rendering (v0):1.1.13+b4f4f6cd60, Fabric Rendering (v1):1.10.7+54e5b2ec60, Fabric Resource Conditions API (v1):2.0.3+91b7aa6660, Fabric Resource Loader (v0):0.5.2+446e059560, Fabric Screen API (v1):1.0.10+d882b91560, Fabric Screen Handler API (v1):1.2.1+1f6558e860, Fabric Textures (v0):1.0.12+3ac43d9560, Fabric Transfer API (v1):1.6.3+f4563ac860, Fabric Transitive Access Wideners (v1):1.1.0+e747827960, Fabric Loader:0.14.8, Falling Leaves:1.11.1+1.18.2, FancyMenu:2.9.1, FerriteCore:4.2.1, Horse Stats Vanilla:4.1.10, I Know What I'm Doing:4.1.0, Indium:1.0.6+mc1.18.2, Inventory HUD +:3.4.2, Inventory Profiles Next:1.5.3, prism4j:2.0.0, Iris:1.2.5, Jankson:4.0.0+j1.2.0, Java HotSpot(TM) 64-Bit Server VM:18, Just Enough Items:10.1.0.208, JourneyMap API:1.18.2-1.8-fabric-SNAPSHOT, Journeymap:5.8.5, Js Macros:1.7.0, Konkrete:1.3.3, LambdaBetterGrass:1.2.4+1.18, LambDynamicLights:2.1.0+1.17, LazyDFU:0.1.2, LibGui:5.3.1+1.18, LibNinePatch:1.1.0, Light Overlay:6.0.5, Litematica:0.11.3, Lithium:0.7.10, MaLiLib:0.12.1, Map Sync:2.0.0-1.18.2, Map Tooltip:1.3.2, simple-rpc-common:3.0.1, Minecraft:1.18.2, Mod Menu:3.2.3, Mouse Tweaks:2.22, Mouse Wheelie:1.10.1+mc1.18.2, Not Enough Crashes:4.1.6+1.18.2, jcpp:1.4.14, js:22.1.0, regex:22.1.0, graal-sdk:22.1.0, truffle-api:22.1.0, javassist:3.28.0-GA, joml:1.10.2, Pride Lib:1.1.0+1.17, RebindAllTheKeys:1.1.1+1.18, Reese's Sodium Options:1.4.3+mc1.18.2-build.42, Simple RPC:3.0.1, Smooth Boot:1.18.2-1.7.0, Snitch Mod:1.3.2-1.18.2, Sodium:0.4.1+build.15, Sodium Extra:0.4.5+mc1.18.2-build.42, spark:1.9.11, SpruceUI:3.3.3+1.18, Starlight:1.0.2+fabric.89b8d9f, Stendhal:1.3.3-1.18, Time To Live:0.4, Tweakeroo:0.13.3, tweed4_annotated:1.3.0+mc1.18.2, tweed4_base:1.5.0+mc1.18.2, tweed4_data:1.2.1+mc1.18.2, tweed4_data_hjson:1.1.0+mc1.18.2, tweed4_tailor_coat:1.1.2+mc1.18.2, tweed4_tailor_screen:1.1.1+mc1.18.2, Where Is It:1.14.10, WI Zoom:1.4-MC1.18.2, wthit:4.11.0
-[00:19:41] [Render thread/INFO]: Color palette file generated for 0 blockstates in 36ms for: C:\Users\mattg\Downloads\mmc-stable-win32(1)\MultiMC\instances\Lux Client\.minecraft\journeymap\colorpalette.json
-[00:19:42] [Render thread/INFO]: Updated color palette for 845 blockstates in 1110ms: C:\Users\mattg\Downloads\mmc-stable-win32(1)\MultiMC\instances\Lux Client\.minecraft\journeymap\colorpalette.json
-[00:19:42] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
-[00:25:31] [Render thread/INFO]: [WTHIT] Connecting to dedicated server, resetting syncable config to client-only values
-[00:29:29] [Render thread/INFO]: Stopping!
+[00:48:46] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[00:48:46] [Render thread/INFO]: [STDOUT]: Inventory HUD + has been initialized!
+[00:48:46] [Render thread/INFO]: [LambdaBetterGrass] Initializing LambdaBetterGrass...
+[00:48:46] [Render thread/INFO]: [LambdaBetterGrass] Configuration loaded.
+[00:48:46] [Render thread/INFO]: [LambDynLights] Initializing LambDynamicLights...
+[00:48:46] [Render thread/INFO]: [LambDynLights] Configuration loaded.
+[00:48:46] [Render thread/INFO]: [STDOUT]: [map-sync] Loaded existing C:\Users\mattg\Downloads\mmc-stable-win32(1)\MultiMC\instances\Lux Client\.minecraft\MapSync\mod-config.json
+[00:48:46] [Render thread/INFO]: [STDOUT]: Saving ModConfig to C:\Users\mattg\Downloads\mmc-stable-win32(1)\MultiMC\instances\Lux Client\.minecraft\MapSync\mod-config.json
+[00:48:46] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Main.initialize()
+[00:48:46] [Render thread/INFO]: [STDOUT]: [Mouse Tweaks] Initialized.
+[00:48:47] [Render thread/INFO]: Reloaded configs for mousewheelie (universal/highest)
+[00:48:47] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[00:48:47] [Early Visualization/INFO]: Set render to false
+[00:48:47] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] Unable to download https://github.com/IrisShaders/Iris-Update-Index/releases/download/test/updateIndex.json
+[00:48:47] [Render thread/INFO]: Debug functionality is disabled.
+[00:48:47] [Render thread/INFO]: Shaders are disabled because no valid shaderpack is selected
+[00:48:47] [Render thread/INFO]: Shaders are disabled
+[00:48:48] [Render thread/INFO]: Hardware information:
+[00:48:48] [Render thread/INFO]: CPU: 6x AMD Ryzen 5 4500U with Radeon Graphics 
+[00:48:48] [Render thread/INFO]: GPU: AMD Radeon(TM) Graphics (Supports OpenGL 4.6.13587 Compatibility Profile Context 19.40.40 26.20.14040.0)
+[00:48:48] [Render thread/INFO]: OS: Windows 10 (10.0)
+[00:48:48] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[00:48:48] [Render thread/INFO]: ARRP register - before vanilla
+[00:48:48] [Render thread/INFO]: ARRP register - after vanilla
+[00:48:48] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Runtime Resource Pack, Amecs, Amecs API, AppleSkin, Auth Me, Better Loading Screen, Better Third Person, CaffeineConfig, Custom Entity Models, Chest Tracker, CIT Resewn, CIT Resewn: Defaults, CleanView, Cloth Config v6, Coat, CombatRadar, CompleteConfig, Connectivity Mod, Continuity, CreativeCore (Fabric), Ears, Enhanced Block Entities, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Command API (v1), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Falling Leaves, FancyMenu, Horse Stats Vanilla, Indium, Inventory HUD +, Inventory Profiles Next, Iris, Jankson, Just Enough Items, Journeymap, Js Macros, Konkrete, LambdaBetterGrass, LambDynamicLights, LazyDFU, LibGui, Light Overlay, Litematica, Lithium, MaLiLib, Map Sync, Map Tooltip, Mod Menu, Mouse Wheelie, Not Enough Crashes, Pride Lib, RebindAllTheKeys, Reese's Sodium Options, Simple RPC, Smooth Boot, Snitch Mod, Sodium, Sodium Extra, spark, SpruceUI, Starlight, Stendhal, Time To Live, Tweakeroo, tweed4_annotated, tweed4_base, tweed4_data, tweed4_data_hjson, tweed4_tailor_coat, tweed4_tailor_screen, Where Is It, WI Zoom, wthit)
+[00:48:48] [Render thread/INFO]: [LambdaBetterGrass] Inject generated resource packs.
+[00:48:49] [Render thread/INFO]: [KONKRETE] Client-side libs ready to use!
+[00:48:49] [Render thread/INFO]: [STDOUT]: [KONKRETE] Running PostLoadingEvents for mod: fancymenu
+[00:48:49] [Render thread/INFO]: [STDOUT]: [KONKRETE] PostLoadingEvents completed for mod: fancymenu
+[00:48:49] [Render thread/INFO]: Creating pipeline for dimension OVERWORLD
+[00:48:49] [Render thread/INFO]: [STDOUT]: [FANCYMENU] Custom minecraft icon successfully loaded!
+[00:48:49] [Render thread/INFO]: [CombatRadar]: JourneyMap is found
+[00:48:49] [Render thread/INFO]: [CombatRadar]: VoxelMap is NOT found
+[00:48:49] [Render thread/INFO]: [CombatRadar]: mod enabled
+[00:48:49] [Render thread/INFO]: Initializing ClientSide Packet Registries
+[00:48:49] [Render thread/INFO]: No plugins for JourneyMap API discovered.
+[00:48:50] [Render thread/INFO]: JourneyMap log initialized.
+[00:48:50] [Render thread/INFO]: initialize ENTER
+[00:48:50] [Render thread/INFO]: [ClientAPI] built with JourneyMap API 1.8-SNAPSHOT
+[00:48:50] [Render thread/INFO]: Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[00:48:50] [Render thread/INFO]: initialize EXIT, elapsed count 1 avg 777.2ms
+[00:48:50] [Render thread/INFO]: Preloaded theme textures: 0
+[00:48:50] [Render thread/INFO]: postInitialize EXIT, elapsed count 1 avg 105.17ms
+[00:48:51] [Render thread/WARN]: [inventoryprofilesnext] Unknown config key 'first_run' with value 'false'
+[00:48:51] [Render thread/WARN]: [inventoryprofilesnext] Unknown config key 'first_run' with value 'false'
+[00:48:51] [Render thread/INFO]: [STDOUT]: [FANCYMENU] Custom minecraft icon successfully loaded!
+[00:48:51] [Render thread/INFO]: [STDOUT]: InvGUI Initialized
+[00:48:52] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
+[00:48:52] [Render thread/INFO]: Sound engine started
+[00:48:52] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[00:48:52] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[00:48:52] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[00:48:53] [Render thread/INFO]: Moving render out
+[00:48:53] [Render thread/INFO]: Acquired lock for render out
+[00:48:53] [Early Visualization/INFO]: Set render to true
+[00:48:53] [Render thread/INFO]: Moving render in
+[00:48:53] [Render thread/INFO]: Acquired lock for render in
+[00:48:53] [Early Visualization/INFO]: Set render to false
+[00:48:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[00:48:53] [Render thread/INFO]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[00:48:54] [Render thread/INFO]: Reloaded configs for mousewheelie (client/smallest)
+[00:48:54] [Render thread/INFO]: Loaded color palette for 845 blockstates in 402ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 37ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 31ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 30ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 29ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 29ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 29ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 28ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 27ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 30ms
+[00:48:55] [Render thread/INFO]: Loaded color palette for 845 blockstates in 27ms
+[00:48:56] [Render thread/INFO]: [FANCYMENU] Updating animation sizes..
+[01:54:30] [Render thread/INFO]: [STDOUT]: ######################### ERROR #########################
+[01:54:30] [Render thread/INFO]: [STDOUT]: Can't load texture 'https://jsmacros.wagyourtail.xyz/img/jsmacros.svg'! Invalid URL!
+[01:54:30] [Render thread/INFO]: [STDOUT]: #########################################################
+[01:54:30] [Render thread/INFO]: [STDERR]: java.io.IOException: Could not load image: Image not of any known type, or corrupt
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_1011.method_4303(class_1011.java:134)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_1011.method_4310(class_1011.java:108)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_1011.method_4309(class_1011.java:99)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.konkrete.resources.WebTextureResourceLocation.loadTexture(WebTextureResourceLocation.java:48)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.fancymenu.menu.fancy.item.WebTextureCustomizationItem.lambda$new$0(WebTextureCustomizationItem.java:65)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.fancymenu.menu.fancy.helper.CustomizationHelper.onRenderPost(CustomizationHelper.java:52)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.konkrete.events.EventHandler.invokeEvent(EventHandler.java:115)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at de.keksuccino.konkrete.events.EventHandler.callEventsFor(EventHandler.java:105)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_757.handler$bob000$afterRenderScreen(class_757.java:5063)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_757.method_3192(class_757.java:877)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1523(class_310.java:1122)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.class_310.method_1514(class_310.java:737)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:236)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:461)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.listen(EntryPoint.java:143)
+[01:54:30] [Render thread/INFO]: [STDERR]: 	at org.multimc.EntryPoint.main(EntryPoint.java:34)
+[01:54:45] [Thread-160/ERROR]: [FANCYMENU] Web texture loaded but resource location was still null! Unable to use web texture!
+[01:57:38] [Render thread/INFO]: Audio device was lost!
+[01:57:38] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek Audio)
+[01:57:38] [Render thread/INFO]: Sound engine started
+[01:57:38] [IO-Worker-6/INFO]: System default audio device has changed!
+[01:57:38] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek Audio)
+[01:57:38] [Render thread/INFO]: Sound engine started
+[02:12:41] [IO-Worker-6/INFO]: System default audio device has changed!
+[02:12:41] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
+[02:12:41] [Render thread/INFO]: Sound engine started
+[03:44:28] [Render thread/INFO]: Audio device was lost!
+[03:44:29] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek Audio)
+[03:44:29] [Render thread/INFO]: Sound engine started
+[03:44:29] [IO-Worker-6/INFO]: System default audio device has changed!
+[03:44:29] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek Audio)
+[03:44:29] [Render thread/INFO]: Sound engine started
+[03:44:30] [IO-Worker-6/INFO]: System default audio device has changed!
+[03:44:30] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Speakers (2- USB Audio Device)
+[03:44:30] [Render thread/INFO]: Sound engine started
+[03:59:42] [Render thread/INFO]: Stopping!

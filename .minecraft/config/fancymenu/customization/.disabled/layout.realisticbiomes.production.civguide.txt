@@ -93,7 +93,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
   action = addbutton
@@ -108,7 +108,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
   action = addbutton
@@ -123,7 +123,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
   action = addbutton
@@ -138,7 +138,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
   action = addbutton
@@ -153,7 +153,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
   action = addbutton
@@ -176,5 +176,143 @@ customization {
   label = ObsidianGenerators
   value = to_production-obsidiangen
   height = 20
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:1
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 1ab09078-f2a3-4d65-9417-d6e3f6fa26e21656543208529
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/realisticbiomes.md
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 321
+  width = 20
+  action = addtexture
+  actionid = 154aa691-a0e9-4fa0-b6cb-3e70703a2ba31656544328452
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 321
+  width = 20
+  actionid = fb9ef56b-1db1-467b-ab70-2b3165e091571656544328452
+  action = addbutton
+  y = 301
+  label = 1
+  value = realisticbiomespage:1
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 354
+  width = 20
+  actionid = 23983748-e778-4294-bdd4-eca4f8b7e8d91656544328452
+  action = addbutton
+  y = 301
+  label = 2
+  value = realisticbiomespage:2
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 354
+  width = 20
+  action = addtexture
+  actionid = 238d2a33-5db0-46ea-946f-c0c02d2d59cc1656544328452
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:2
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = b66d2e09-fb06-4ae0-85d6-3af50418835c1656544398314
+  action = addwebtext
+  y = 9
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/realisticbiomes2.md
+}
+
+customization {
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 466
+  width = 172
+  action = addwebtexture
+  actionid = 67de76fb-067c-4b9b-a0a6-50c37b80150c1656544490259
+  y = 32
+  url = https://static.miraheze.org/civwikiwiki/b/b6/Realisticbiome_clay_setup.png
+  height = 95
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 470
+  actionid = ef1dad9d-8321-4e65-82ab-c30ad1d96f801656544536162
+  action = addtext
+  y = 130
+  scale = 0.7
+  alignment = left
+  value = 4 blocks of clay directly below a crop will
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = realisticbiomespage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 470
+  actionid = bd8a28a6-12da-4c02-afe3-4f56466b5ec51656544568972
+  action = addtext
+  y = 136
+  scale = 0.7
+  alignment = left
+  value = significantly speed up the growth
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = f77e68f6-287c-419f-a916-b1b3046dca681656544861218
+  y = 89
+  height = 7
 }
 

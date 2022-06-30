@@ -93,7 +93,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
   action = addbutton
@@ -108,7 +108,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
   action = addbutton
@@ -123,7 +123,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
   action = addbutton
@@ -138,7 +138,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
   action = addbutton
@@ -153,7 +153,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
   action = addbutton
@@ -176,5 +176,95 @@ customization {
   label = ObsidianGenerators
   value = to_production-obsidiangen
   height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = 00f31a1e-6f75-4e14-8194-59a1032c031c1656578752766
+  y = 209
+  height = 7
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = true
+  x = 114
+  actionid = 87ad1551-0fc5-40aa-89da-344bea5c23a71656579182169
+  action = addwebtext
+  y = 11
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/botting.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 483
+  actionid = de7ec132-aa65-4e91-af49-f4f5e1ecb6781656579232230
+  action = addtext
+  y = 65
+  scale = 1.0
+  alignment = left
+  value = Lux Client Uses JSMacros
+}
+
+customization {
+  orientation = top-left
+  x = 522
+  width = 56
+  action = addwebtexture
+  actionid = 7886eb73-f594-4dfe-b77a-3c5e937c40131656579322900
+  y = 69
+  url = https://media.forgecdn.net/avatars/thumbnails/294/696/64/64/637334062366491522.png
+  height = 56
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = true
+  x = 550
+  actionid = 2aad1e24-5686-4e98-8b4d-48def27c9cac1656579783980
+  action = addwebtext
+  y = 123
+  scale = 0.7
+  alignment = centered
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/jsmacrosinfo.md
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\Images and etc\invisible-png.png
+  label = 
+  loopbackgroundanimations = true
+  x = 476
+  width = 147
+  actionid = d1812e75-687b-401d-8449-4cf313730e771656580097535
+  action = addbutton
+  y = 157
+  backgroundnormal = config\fancymenu\Images and etc\invisible-png.png
+  value = https://jsmacros.wagyourtail.xyz/?general.html
+  height = 8
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr:showif:buttonhovered = true
+  x = 478
+  width = 145
+  action = addtexture
+  actionid = bcf3e917-2765-487f-98ff-9c79262c2b401656580207170
+  y = 162
+  vr:value:buttonhovered = d1812e75-687b-401d-8449-4cf313730e771656580097535
+  height = 5
 }
 

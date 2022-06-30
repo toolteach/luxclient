@@ -93,7 +93,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
   action = addbutton
@@ -108,7 +108,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
   action = addbutton
@@ -123,7 +123,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
   action = addbutton
@@ -138,7 +138,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
   action = addbutton
@@ -153,7 +153,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
   action = addbutton
@@ -176,5 +176,102 @@ customization {
   label = ObsidianGenerators
   value = to_production-obsidiangen
   height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 321
+  width = 20
+  actionid = 520b1303-b956-45c4-b390-bc694623e23b1656585036828
+  action = addbutton
+  y = 301
+  label = 1
+  value = railswitchpage:1
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = railswitchpage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 321
+  width = 20
+  action = addtexture
+  actionid = 674dfae8-b151-4e83-b8e9-edd34f6517691656585036828
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 354
+  width = 20
+  actionid = 61456b54-c119-4864-bd38-26a8f0418bd41656585036828
+  action = addbutton
+  y = 301
+  label = 2
+  value = railswitchpage:2
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = railswitchpage:1
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 90114e3c-eedd-4d6b-ad33-d1a8030050d81656585069587
+  action = addwebtext
+  y = 12
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/railswitch.md
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = railswitchpage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 354
+  width = 20
+  action = addtexture
+  actionid = 098e8cf8-65d5-4e0b-bf6f-b0279aa44ca41656585036828
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = railswitchpage:2
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = e174c3bc-08ed-4fab-81d0-1a6694c912a11656585299526
+  action = addwebtext
+  y = 15
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/railswitch2.md
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = d7c03992-77d7-420c-8647-4d0760eb31821656585451271
+  y = 299
+  height = 7
 }
 

@@ -93,7 +93,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = ceb05043-0cd3-4d13-97b2-11bd45aea21c1656045903159
   action = addbutton
@@ -108,7 +108,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = fc91ec4c-801e-4d58-864c-38bacc9151061656045907832
   action = addbutton
@@ -123,7 +123,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 7255013c-b12b-4291-9d94-f71d830ade681656045967271
   action = addbutton
@@ -138,7 +138,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = cd5953de-6464-4f73-97ee-39ff2d25d0bd1656045982040
   action = addbutton
@@ -153,7 +153,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   buttonaction = runscript
-  x = 9
+  x = 10
   width = 100
   actionid = 297e46b1-3b0b-441f-b666-8c7a800ca28b1656046007901
   action = addbutton
@@ -176,5 +176,276 @@ customization {
   label = ObsidianGenerators
   value = to_production-obsidiangen
   height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = 6e96512a-6f22-4004-94b7-8e74769f78ee1656580325543
+  y = 239
+  height = 7
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 321
+  width = 20
+  actionid = 4abed4ed-c000-428d-ae16-334d527597741656581847722
+  action = addbutton
+  y = 301
+  label = 3
+  value = brewerypage:3
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:3
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 321
+  width = 20
+  action = addtexture
+  actionid = fa4c7fa7-9587-4e95-9949-34ae515823cd1656581847722
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 354
+  width = 20
+  actionid = 8b67d391-25de-4869-9a15-00fac75d04121656581847722
+  action = addbutton
+  y = 301
+  label = 4
+  value = brewerypage:4
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:4
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 354
+  width = 20
+  action = addtexture
+  actionid = 2ac615f4-4bfb-4b1b-a70e-706a47c336c81656581847722
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 387
+  width = 20
+  actionid = e9731094-b9a0-4981-9f9f-a3027fdb4b731656581851413
+  action = addbutton
+  y = 301
+  label = 5
+  value = brewerypage:5
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:5
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 387
+  width = 20
+  action = addtexture
+  actionid = dd7bc3a9-4e76-49d7-a0b0-e82d31084ca21656581851414
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 420
+  width = 20
+  actionid = e4eb3502-af7f-4647-b3c2-d8a9d491a06b1656581851414
+  action = addbutton
+  y = 301
+  label = 6
+  value = brewerypage:6
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:6
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 420
+  width = 20
+  action = addtexture
+  actionid = 031c4410-11a0-419f-ad60-4a06515bcdf51656581851414
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 255
+  width = 20
+  actionid = a1e9f3dd-9be0-4654-a08f-e6fd2b32d78b1656581908991
+  action = addbutton
+  y = 301
+  label = 1
+  value = brewerypage:1
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 255
+  width = 20
+  action = addtexture
+  actionid = c7ea2086-fee0-4822-8fd3-b1f296ba030d1656581908991
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 288
+  width = 20
+  actionid = 8ad41800-d198-4b36-825f-8bb96081e5f91656581908991
+  action = addbutton
+  y = 301
+  label = 2
+  value = brewerypage:2
+  height = 20
+}
+
+customization {
+  vr_custom:showif:fancymenu_visibility_requirement_is_layout_enabled = false
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 288
+  width = 20
+  action = addtexture
+  actionid = b654369d-8d1b-44dd-b7c7-c17b485512e31656581908991
+  y = 320
+  vr_custom:value:fancymenu_visibility_requirement_is_layout_enabled = my_cool_main_menu_layout
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:1
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 9e620e32-274e-4d40-9e46-3ddaffd92a351656582146357
+  action = addwebtext
+  y = 11
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/brewery.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:2
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 63a506e7-d3bd-4d1c-be6b-dc225aedaab91656582307820
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/brewery2.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:3
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = b74a5231-2651-4471-8709-ffb2c41816d81656582689061
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/brewery3.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:4
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 1ab60498-07e5-426a-9b02-5158f3e870a81656582762258
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/brewery4.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:5
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 8d427d22-ad00-471b-9c6f-ef214cddad591656582826296
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/brewery5.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = brewerypage:6
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = aed18f58-0aab-45aa-9795-583f9c2e41441656582918398
+  action = addwebtext
+  y = 10
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/production/brewery6.md
 }
 

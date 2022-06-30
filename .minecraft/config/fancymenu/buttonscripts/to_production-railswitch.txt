@@ -1,4 +1,5 @@
 enable_layout:layout.railswitch.production.civguide
+set_variable:railswitchpage:1
 disable_layout:layout.factorymod.production.civguide
 disable_layout:layout.oldenchanting.production.civguide
 disable_layout:layout.realisticbiomes.production.civguide
