@@ -94,9 +94,9 @@ customization {
   x = 9
   width = 103
   action = addtexture
-  actionid = 4e3d8680-9d1a-49a0-99a1-ac2e9032cdad1656586469807
-  y = 34
-  height = 7
+  actionid = 8fe2413a-0c5c-435b-a141-09bb0b8d62651656625043599
+  y = 155
+  height = 5
 }
 
 customization {
@@ -104,11 +104,11 @@ customization {
   shadow = false
   multiline = true
   x = 114
-  actionid = 42b49f49-420b-42ec-a8d3-4a02a883c0d11656586649118
+  actionid = 896b02ce-9d39-424e-a519-bb289e8234d51656625140988
   action = addwebtext
-  y = 11
+  y = 13
   scale = 0.8
   alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/citadel.md
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/vault.md
 }
 

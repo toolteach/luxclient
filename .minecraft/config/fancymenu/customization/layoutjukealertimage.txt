@@ -1,7 +1,7 @@
 type = menu
 
 customization-meta {
-  identifier = factorymodimage
+  identifier = jukealertimage
   randomgroup = 1
   renderorder = foreground
   randommode = false
@@ -16,23 +16,23 @@ customization {
 customization {
   orientation = top-left
   shadow = false
-  x = 304
-  actionid = a75e947f-6e4a-4b2e-8856-a984e4ea136e1656621488301
+  x = 299
+  actionid = 6ccd16d1-f5e8-49cb-85f9-d27f7124ec381656621429015
   action = addtext
   y = 161
   scale = 1.0
   alignment = left
-  value = Loading.......
+  value = Loading......
 }
 
 customization {
+  path = config/fancymenu/Images and etc/jukealertguide.png
   orientation = top-left
-  x = 153
-  width = 334
-  action = addwebtexture
-  actionid = db990eae-82a9-4199-9fa9-230d7bb470811656485303577
-  y = -7
-  url = https://static.miraheze.org/civwikiwiki/7/7b/FactoryMod_infographic.png
-  height = 365
+  x = 91
+  width = 459
+  action = addtexture
+  actionid = 5fe4118b-a4d0-4a18-9851-135b0e2557231656621398047
+  y = 13
+  height = 309
 }
 

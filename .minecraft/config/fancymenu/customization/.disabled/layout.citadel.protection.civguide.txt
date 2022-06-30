@@ -94,37 +94,24 @@ customization {
   x = 9
   width = 103
   action = addtexture
-  actionid = 3f63ecbd-742f-4abd-aa9b-d8783c094b021656611476985
-  y = 65
-  height = 5
+  actionid = 4e3d8680-9d1a-49a0-99a1-ac2e9032cdad1656586469807
+  y = 34
+  height = 7
 }
 
 customization {
   orientation = top-left
   shadow = false
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:1
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:1
   multiline = true
   vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
   x = 114
-  actionid = a2de7030-dc28-4a8d-aaa3-48f06a5a4d1f1656612170827
+  actionid = 42b49f49-420b-42ec-a8d3-4a02a883c0d11656586649118
   action = addwebtext
-  y = 13
+  y = 11
   scale = 0.8
   alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/namelayer.md
-}
-
-customization {
-  path = config/fancymenu/Images and etc/whitelineselect.png
-  orientation = top-left
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:1
-  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
-  x = 288
-  width = 20
-  action = addtexture
-  actionid = 5ccb6bff-96c3-483d-adf7-78cb8f8f71f01656612354772
-  y = 320
-  height = 5
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/citadel.md
 }
 
 customization {
@@ -134,12 +121,25 @@ customization {
   buttonaction = set_variable
   x = 288
   width = 20
-  actionid = 9a8a2f82-4040-4f35-850c-1f70acfd59e91656612354772
+  actionid = c24aeb62-2502-433f-96c8-15e45d7acb201656606726422
   action = addbutton
   y = 301
   label = 1
-  value = namelayerpage:1
+  value = citadelpage:1
   height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 288
+  width = 20
+  action = addtexture
+  actionid = bddda199-a061-4ca1-bdf0-b0e46239170f1656606726422
+  y = 320
+  height = 5
 }
 
 customization {
@@ -149,23 +149,36 @@ customization {
   buttonaction = set_variable
   x = 321
   width = 20
-  actionid = d82184ce-6dff-4c5c-b6ad-8a83c2072ca41656612354772
+  actionid = ff4ad43f-43b5-40b0-b449-3fed88dcb2bb1656606726422
   action = addbutton
   y = 301
   label = 2
-  value = namelayerpage:2
+  value = citadelpage:2
   height = 20
 }
 
 customization {
   path = config/fancymenu/Images and etc/whitelineselect.png
   orientation = top-left
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:2
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:2
   vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
   x = 321
   width = 20
   action = addtexture
-  actionid = e38beed0-3c76-4bd0-bed4-620f4f95ac301656612354772
+  actionid = 2973d798-e51a-40fd-8400-3b935357993f1656606726422
+  y = 320
+  height = 5
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:3
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 354
+  width = 20
+  action = addtexture
+  actionid = 369bf3a2-b647-4dcd-b646-40d338ac36491656606904687
   y = 320
   height = 5
 }
@@ -177,25 +190,40 @@ customization {
   buttonaction = set_variable
   x = 354
   width = 20
-  actionid = 4b78ea75-3a48-4034-8535-da95ed8e347a1656612354772
+  actionid = a78cde84-111e-45fe-8786-4928be0c81421656606904687
   action = addbutton
   y = 301
   label = 3
-  value = namelayerpage:3
+  value = citadelpage:3
   height = 20
 }
 
 customization {
-  path = config/fancymenu/Images and etc/whitelineselect.png
+  path = config/fancymenu/Images and etc/citadelchart1.png
   orientation = top-left
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:3
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:1
   vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
-  x = 354
-  width = 20
+  x = 392
+  width = 249
   action = addtexture
-  actionid = a6788aea-2c89-4937-9393-51c0dd5bc3e51656612354772
-  y = 320
-  height = 5
+  actionid = 831dc7b0-5eb0-4bcd-98c7-41178195fa301656607917526
+  y = 142
+  height = 85
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:2
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 1cc3a0a5-6e6d-4c66-9ce6-54e9aabd636c1656608010699
+  action = addwebtext
+  y = 12
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/citadel2.md
 }
 
 customization {
@@ -205,23 +233,23 @@ customization {
   buttonaction = set_variable
   x = 387
   width = 20
-  actionid = 57b6567c-864b-4311-a29c-a77675e996d71656612354772
+  actionid = 7f0eed51-7640-4f04-a6d9-dcd80138f8981656609036502
   action = addbutton
   y = 301
   label = 4
-  value = namelayerpage:4
+  value = citadelpage:4
   height = 20
 }
 
 customization {
   path = config/fancymenu/Images and etc/whitelineselect.png
   orientation = top-left
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:4
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:4
   vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
   x = 387
   width = 20
   action = addtexture
-  actionid = 517283eb-084f-4dff-b1de-131b0ee9d9b01656612354772
+  actionid = c11f91f1-647b-4349-8d12-044061cb0c521656609036502
   y = 320
   height = 5
 }
@@ -229,75 +257,43 @@ customization {
 customization {
   orientation = top-left
   shadow = false
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:2
-  multiline = true
-  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
-  x = 113
-  actionid = c9014814-25c9-482c-99f4-f837f57407661656612673096
-  action = addwebtext
-  y = 15
-  scale = 0.8
-  alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/namelayer2-1.md
-}
-
-customization {
-  orientation = top-left
-  shadow = false
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:2
-  multiline = true
-  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
-  x = 392
-  actionid = bc6784d8-1574-4897-a513-0b555eb98a041656612781510
-  action = addwebtext
-  y = 15
-  scale = 0.8
-  alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/namelayer2-2.md
-}
-
-customization {
-  orientation = top-left
-  shadow = false
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:3
-  multiline = true
-  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
-  x = 113
-  actionid = b7c670c8-aea3-4582-a104-7b57d51d51f91656613004256
-  action = addwebtext
-  y = 15
-  scale = 0.8
-  alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/namelayer3.md
-}
-
-customization {
-  orientation = top-left
-  shadow = false
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:4
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:3
   multiline = true
   vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
   x = 114
-  actionid = 13582d3b-9059-4f02-a1cc-83088fc1ea901656614580040
+  actionid = 2e243d1d-92e0-4828-84e6-5264e6d8e06a1656610217188
   action = addwebtext
-  y = 11
-  scale = 0.7
+  y = 12
+  scale = 0.8
   alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/namelayer4-1.md
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/citadel3.md
+}
+
+customization {
+  path = config/fancymenu/Images and etc/citadelchart.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:3
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 411
+  width = 232
+  action = addtexture
+  actionid = 4be8aadd-23f6-4097-879c-6ddd29c9879e1656610316218
+  y = 72
+  height = 97
 }
 
 customization {
   orientation = top-left
   shadow = false
-  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = namelayerpage:4
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = citadelpage:4
   multiline = true
   vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
-  x = 374
-  actionid = 474f0f84-5ba6-40f7-8b4d-8c790ae658e21656614687530
+  x = 114
+  actionid = 2821ebaf-5498-4d85-b32d-175bfaf437a41656610982268
   action = addwebtext
-  y = 11
-  scale = 0.7
+  y = 12
+  scale = 0.8
   alignment = left
-  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/namelayer4-2.md
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/citadel4.md
 }
 

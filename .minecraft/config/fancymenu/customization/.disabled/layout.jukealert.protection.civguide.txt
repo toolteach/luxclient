@@ -88,3 +88,244 @@ customization {
   height = 20
 }
 
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = 4ad84a90-7ef3-4f90-ba64-e9feb0fe00021656621019933
+  y = 125
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:1
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 85f72225-f311-4a90-8948-a05d4a03d1251656621112937
+  action = addwebtext
+  y = 12
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/jukealert.md
+}
+
+customization {
+  path = config/fancymenu/Images and etc/jukealertguide.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 453
+  width = 186
+  action = addtexture
+  actionid = 8d8a35de-3427-4ace-8506-b6ceb4e8c0941656621226487
+  y = 17
+  height = 125
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 453
+  actionid = 1c372b64-888e-40c5-ab09-777f96ba1e7f1656621258644
+  action = addtext
+  y = 141
+  scale = 0.8
+  alignment = left
+  value = Click image for fullscreen
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  backgroundhovered = config\fancymenu\Images and etc\invisible-png.png
+  label = 
+  loopbackgroundanimations = true
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:1
+  x = 451
+  width = 190
+  actionid = b6d20f47-ac22-4126-8f33-6093cc741a0c1656621283137
+  action = addbutton
+  y = 15
+  backgroundnormal = config\fancymenu\Images and etc\invisible-png.png
+  value = jukealertimage
+  height = 129
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 288
+  width = 20
+  actionid = 5130e3e1-f749-4e96-8753-6a00169167321656621860884
+  action = addbutton
+  y = 301
+  label = 1
+  value = jukealertpage:1
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:1
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 288
+  width = 20
+  action = addtexture
+  actionid = 4ac8d592-3951-4045-b21d-283f010c15c91656621860884
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 321
+  width = 20
+  actionid = 44db53f5-2647-48f0-b010-d9f67b1427491656621860884
+  action = addbutton
+  y = 301
+  label = 2
+  value = jukealertpage:2
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 321
+  width = 20
+  action = addtexture
+  actionid = 86eefce3-1dfb-4bb6-bb48-d76ea79876f71656621860884
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 354
+  width = 20
+  actionid = df64aa1f-5d27-4f5a-bc88-4352302bf94c1656621860884
+  action = addbutton
+  y = 301
+  label = 3
+  value = jukealertpage:3
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:3
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 354
+  width = 20
+  action = addtexture
+  actionid = 504ee7fe-869d-4ff1-ab39-1d8c94adc4721656621860884
+  y = 320
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = set_variable
+  x = 387
+  width = 20
+  actionid = f47617e5-bd31-478e-b652-53f31463cfeb1656621860884
+  action = addbutton
+  y = 301
+  label = 4
+  value = jukealertpage:4
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:4
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 387
+  width = 20
+  action = addtexture
+  actionid = a1ba3fd0-002a-4965-8811-dd7d9aada70c1656621860884
+  y = 320
+  height = 5
+}
+
+customization {
+  path = config/fancymenu/Images and etc/jukealertchart.png
+  orientation = top-left
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  width = 462
+  action = addtexture
+  actionid = 7d7e0d63-dc3d-4fca-9525-50fbe633afdf1656623684416
+  y = 26
+  height = 189
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:2
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = bb8f1dae-fabd-48b5-bb9a-074313c5bb891656623771380
+  action = addtext
+  y = 12
+  scale = 1.0
+  alignment = left
+  value = /Jainfo Parameters
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:3
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 8af59c3a-7f59-4338-bf53-0d08235765581656624053539
+  action = addwebtext
+  y = 15
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/jukealert3.md
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = jukealertpage:4
+  multiline = true
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
+  x = 114
+  actionid = 8986a7bc-67e8-4988-a38d-0df539cd33721656624876743
+  action = addwebtext
+  y = 15
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/protection/jukealert4.md
+}
+

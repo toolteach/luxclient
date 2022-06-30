@@ -306,9 +306,11 @@ customization {
   orientation = top-left
   restartbackgroundanimations = true
   buttonaction = opencustomgui
+  vr_custom:showif:fancymenu_visibility_requirement_is_variable_value = true
   backgroundhovered = config\fancymenu\Images and etc\invisible-png.png
   label = 
   loopbackgroundanimations = true
+  vr_custom:value:fancymenu_visibility_requirement_is_variable_value = factorymodpage:1
   x = 507
   width = 134
   actionid = 0af30920-f637-4228-bdbc-d4270f6d0b4f1656485503458

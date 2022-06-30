@@ -1,0 +1,4 @@
+opencustomgui:protection.civguide
+set_variable:citadelpage:1
+set_variable:namelayerpage:1
+set_variable:jukealertpage:1
