@@ -158,7 +158,7 @@ customization {
   y = -10
   scale = 1.0
   alignment = left
-  value = Lux Client %mcversion% v0.5 Beta / Fabric %version:fabric% 
+  value = Lux Client %mcversion% v0.6 Beta / Fabric %version:fabric% 
 }
 
 customization {
