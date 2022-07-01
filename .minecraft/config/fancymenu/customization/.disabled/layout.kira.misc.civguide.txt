@@ -43,3 +43,27 @@ customization {
   height = 20
 }
 
+customization {
+  path = config/fancymenu/Images and etc/whitelineselect.png
+  orientation = top-left
+  x = 9
+  width = 103
+  action = addtexture
+  actionid = e9dfc771-2005-4835-aea4-3f9b8768994a1656652294232
+  y = 34
+  height = 7
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  multiline = true
+  x = 114
+  actionid = ae1a92c2-ba5d-4115-98a7-0c8783d5d3271656652312335
+  action = addwebtext
+  y = 12
+  scale = 0.8
+  alignment = left
+  url = https://raw.githubusercontent.com/TripleLuxen/luxclient/Civguide-Webtext/misc/kira.md
+}
+

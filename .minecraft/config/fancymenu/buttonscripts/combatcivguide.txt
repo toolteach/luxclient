@@ -1,0 +1,2 @@
+opencustomgui:combat.civguide
+set_variable:exilepearlpage:1

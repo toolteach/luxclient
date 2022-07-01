@@ -1,0 +1,2 @@
+opencustomgui:misc.civguide
+set_variable:jargonpage:1

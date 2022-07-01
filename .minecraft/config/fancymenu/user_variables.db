@@ -2,16 +2,18 @@ type = cached_variables
 
 variables {
   productionpage = 1
-  jukealertpage = 4
+  jukealertpage = 1
   miscpage = 1
   jukealartpage = 4
+  exilepearlpage = 1
   itemexchangepage = 1
   railswitchpage = 1
   combatpage = 1
+  jargonpage = 7
   protectionpage = 1
   realisticbiomespage = 1
   citadelpage = 1
-  bastionpage = 4
+  bastionpage = 1
   worldpage = 1
   namelayerpage = 1
   factorymodpage = 1

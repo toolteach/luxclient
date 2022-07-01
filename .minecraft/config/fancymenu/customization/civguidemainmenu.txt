@@ -79,7 +79,7 @@ customization {
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
+  buttonaction = runscript
   backgroundhovered = config\fancymenu\Images and etc\swordsactive.png
   label = Combat
   loopbackgroundanimations = true
@@ -89,14 +89,14 @@ customization {
   action = addbutton
   y = 49
   backgroundnormal = config\fancymenu\Images and etc\swords.png
-  value = combat.civguide
+  value = combatcivguide
   height = 60
 }
 
 customization {
   orientation = mid-centered
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
+  buttonaction = runscript
   backgroundhovered = config\fancymenu\Images and etc\othersactive.png
   label = Miscellaneous
   loopbackgroundanimations = true
@@ -106,7 +106,7 @@ customization {
   action = addbutton
   y = 49
   backgroundnormal = config\fancymenu\Images and etc\others2.png
-  value = misc.civguide
+  value = misccivguide
   height = 60
 }
 
