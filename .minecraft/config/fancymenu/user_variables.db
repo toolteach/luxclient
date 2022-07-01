@@ -9,7 +9,7 @@ variables {
   itemexchangepage = 1
   railswitchpage = 1
   combatpage = 1
-  jargonpage = 7
+  jargonpage = 1
   protectionpage = 1
   realisticbiomespage = 1
   citadelpage = 1
