@@ -1,3 +1,0 @@
-enable_layout:layout.jargon.misc.civguide
-set_variable:jargonpage:1
-disable_layout:layout.kira.misc.civguide

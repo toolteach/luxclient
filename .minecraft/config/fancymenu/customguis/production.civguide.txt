@@ -1,3 +1,0 @@
-identifier = production.civguide
-title = 
-allowesc = true

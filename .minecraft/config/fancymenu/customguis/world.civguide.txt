@@ -1,3 +1,0 @@
-identifier = world.civguide
-title = 
-allowesc = true

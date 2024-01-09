@@ -1,3 +1,0 @@
-identifier = combat.civguide
-title = 
-allowesc = true

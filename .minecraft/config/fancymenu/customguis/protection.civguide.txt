@@ -1,3 +1,0 @@
-identifier = protection.civguide
-title = 
-allowesc = true

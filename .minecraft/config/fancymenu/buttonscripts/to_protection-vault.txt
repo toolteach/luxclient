@@ -1,5 +1,0 @@
-enable_layout:layout.vault.protection.civguide
-disable_layout:layout.citadel.protection.civguide
-disable_layout:layout.namelayer.protection.civguide
-disable_layout:layout.bastion.protection.civguide
-disable_layout:layout.jukealert.protection.civguide

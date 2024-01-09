@@ -1,6 +1,0 @@
-opencustomgui:production.civguide
-set_variable:factorymodpage:1
-set_variable:realisticbiomespage:1
-set_variable:itemexchangepage:1
-set_variable:brewerypage:1
-set_variable:railswitchpage:1

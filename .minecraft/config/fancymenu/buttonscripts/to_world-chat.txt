@@ -1,5 +1,0 @@
-enable_layout:layout.chat.world.civguide
-disable_layout:layout.terrain.world.civguide
-disable_layout:layout.randomspawn.world.civguide
-disable_layout:layout.orebfuscator.world.civguide
-disable_layout:layout.blocklimits.world.civguide

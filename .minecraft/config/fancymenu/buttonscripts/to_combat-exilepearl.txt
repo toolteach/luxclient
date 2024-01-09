@@ -1,4 +1,0 @@
-enable_layout:layout.exilepearl.combat.civguide
-set_variable:exilepearlpage:1
-disable_layout:layout.combatchanges.combat.civguide
-disable_layout:layout.combattag.combat.civguide

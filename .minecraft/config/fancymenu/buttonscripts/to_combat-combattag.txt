@@ -1,3 +1,0 @@
-enable_layout:layout.combattag.combat.civguide
-disable_layout:layout.exilepearl.combat.civguide
-disable_layout:layout.combatchanges.combat.civguide
